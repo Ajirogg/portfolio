@@ -1,0 +1,108 @@
+<!-- Header -->
+
+<div class="text-center">
+    <h2 class="text-center pt-2 pb-2">{{ game.title }}</h2>
+</div>
+
+<!-- Left Panel -->
+
+<div class="row pl-1">
+
+    <div class="col-4 metadata">
+
+        <div class="p-2">
+            <p-galleria *ngIf="game.img.list.length > 1" [(value)]="game.img.list"
+                [containerStyle]="{'max-width': '660px'}" [numVisible]="3">
+                <ng-template pTemplate="item" let-item>
+                    <img [src]="item.src" style="width: 100%; display: block;" [alt]="item.alt" />
+                </ng-template>
+                <ng-template pTemplate="thumbnail" let-item>
+                    <div class="p-grid p-nogutter p-justify-center">
+                        <img [src]="item.miniature" />
+                    </div>
+                </ng-template>
+            </p-galleria>
+
+            <img *ngIf="game.img.list.length === 1" [src]="game.img.list[0].src" style="width: 100%; display: block;"
+                [alt]="game.img.list[0].alt" />
+        </div>
+
+        <div class="team pl-2">
+            <h4 class="pt-2 pb-1" style="text-decoration: underline;">Equipe de production :</h4>
+            <div class="pb-2 pl-2" *ngFor="let team of game.team">
+                <h5 style="text-decoration: underline;">{{ team.ecole }} </h5>
+                <div class="pl-2" *ngFor="let membre of team.membres">
+                    <span>{{ membre }}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="link pl-2 pt-2">
+
+            <a *ngIf="game.youtube" [href]="game.youtube" target="_blank">
+                <img style="width: 30px; height: auto;" src="./../../assets/Images/youtube.png" alt="Youtube logo">
+                Trailer
+            </a>
+            <br *ngIf="game.youtube">
+            <a *ngIf="game.website.url" [href]="game.website" target="_blank">
+                <img style="width: 30px; height: auto;" [src]="game.website.icon">
+                {{ game.website.text }}
+            </a>
+            <br *ngIf="game.website.url">
+            <a *ngIf="game.download.link" [href]="game.download.link" [download]="game.download.text">
+                <img style="width: 30px; height: auto;" src="./../../assets/Images/exe.png" alt="Executable file">
+                {{game.download.text}}
+            </a>
+            <br *ngIf="game.download.link">
+            <a *ngIf="game.itchio" [href]="game.itchio" target="_blank">
+                <img style="width: 30px; height: auto;" src="./../../assets/Images/itchio.png" alt="Itch io logo">
+                Page itch.io
+            </a>
+            <br *ngIf="game.itchio">
+            <a *ngIf="game.git" [href]="game.git" target="_blank">
+                <img style="width: 30px; height: auto;" src="./../../assets/Images/github.png" alt="Github logo">
+                Page Github
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- Right Panel -->
+
+    <div class="col-8">
+        <div #Pitch *ngIf="game.pitch.length" class="p-2">
+            <h4 style="text-decoration: underline;">Pitch :</h4>
+            <div class="pl-3">
+                <div *ngFor="let sentence of game.pitch">
+                    <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
+                </div>
+            </div>
+
+            <div #Contexte *ngIf="game.context.length" class="p-2">
+                <h4 style="text-decoration: underline;">Contexte :</h4>
+
+                <div *ngFor="let sentence of game.context">
+                    <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
+                </div>
+            </div>
+
+            <div #Done *ngIf="game.work.length" class="p-2">
+                <h4 style="text-decoration: underline;">Mon travail :</h4>
+
+                <div *ngFor="let sentence of game.work">
+                    <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
+                </div>
+            </div>
+
+            <div #Return *ngIf="game.return.length" class="p-2">
+                <h4 style="text-decoration: underline;">Retour :</h4>
+
+                <div *ngFor="let sentence of game.return">
+                    <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
+                </div>
+            </div>
+        </div>
+
+    </div>

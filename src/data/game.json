@@ -1,0 +1,454 @@
+{
+    "games": [
+        {
+            "order": 9,
+            "title": "The Experiment",
+            "type": "Puzzle Horreur",
+            "date": "2020",
+            "team": [
+                {
+                    "ecole": "Promotion 2019 d'Ynov",
+                    "membres": [
+                        "18 étudiants (Voir l'image des crédits)"
+                    ]
+                }
+            ],
+            "return": [
+                "Ce projet a été très intéressant pour moi, avec la possibilité d’en apprendre plus sur le level design et sur les implications du game designer dans le jeu.",
+                "J’ai aussi pu découvrir le travail d’équipe dans un groupe plus important (plus de 8 personnes). Au début du projet, la taille de ce groupe de travail a posé problème, car nous avons commencé sans chef d’équipe. Le Nombre important d’artiste a posé problème, le projet prenant du retard car le niveau de travail était très hétérogène et des tensions sont apparues. Suite à l’apparition de ses tensions, des réunions ont été mises en place et 3 chefs d’équipe ont était nommés (2 pour les artistes qui ont alors était divisé en 2 groupes de travail, et 1 pour les développeurs).  La communication en a alors était améliorée et le travail a repris de manière plus homogène.",
+                "Lors du projet nous avons travaillé en méthode agile (SCRUM), et nous étions autonome (les intervenants ne prenant part à aucune  décision, n’intervenant que si nous leur demandions de l’aide). ",
+                "Le projet a aussi été retardé à cause de la remise en question constante des choix pris, entrainant des modifications sur le travail fait en pré-production. Ces différents problèmes nous ont forcés à faire des choix et à supprimer certaines parties du jeu non indispensable, qui ne pourrait être faites à temps. Certains cuts sont aussi apparu à cause du confinement, modifiant les emplois du temps et certains cours cruciaux ont été dispensés trop tard pour permettre leur utilisation."
+            ],
+            "work": [
+                "Durant la création du jeu, je me suis principalement attelé à la programmation d’une énigme ainsi qu’à la programmation des déplacements et de l’utilisation de la tablette du personnage. L’énigme (modifier par la suite) consistait à trouver un flacon d’acide pour faire fondre un cadenas nous donnant accès aux clefs de la prochaine portes.",
+                "J’ai aussi aidé le game designer à la mise en place du level design, des énigmes, ainsi qu’à la vérification de la cohérence des salles et du bon positionnement des énigmes.",
+                "A cause du confinement, je me suis retrouvé avec une connexion internet insuffisante pour récupérer le projet et continuer le développement. J’ai donc continué à aider le game designer à distance via partage d’écran."
+            ],
+            "shortDesc": {
+                "style": "The Experiment est un jeu d'horreur.",
+                "team": "Créé en 6 mois par la promotion 2019 du campus Ynov Aix-en-Provence (18 étudiants)."
+            },
+            "pitch": [
+                "Ben Skelley est un reporter à la recherche de preuves d'une existence paranormale dans un laboratoire abandonné. Cependant, après avoir été abîmé, son appareil lui permettrait de voir le lieu lors d'une époque passée..."
+            ],
+            "context": [
+                "The Experiment est le projet de fin d’année de Master 1 de la promotion 2019 de l’école d’Ynov Campus Aix-en-Provence. Ce projet a eu pour thème imposé « L’horreur ». Suite aux délibérations, le jeu a été conçu autour de l’Art.  Nous avons eu 6 mois pour mener à bien ce projet.",
+                "The Experiment est un jeu d’horreur et d’énigme, le personnage incarné essaye de trouver des preuves de phénomène paranormal et de sortir du laboratoire. Le jeu tourne donc autour des énigmes qui vont permettre au joueur de sortir.",
+                "Le code a été réalisé en majoriter en blueprint sur Unreal. L'équipe était composée de 11 artistes, 6 développeurs et 1 game designer"
+            ],
+            "download": {
+                "link": "assets/executable/TheExperiment.zip",
+                "text": "TheExperiment.zip"
+            },
+            "git": "https://gitlab.com/ynov_master/project_ana_2",
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/The Experiment/logo.png",
+                        "miniature": "assets/Images/The Experiment/logo-miniature.png",
+                        "alt": "The Experiment logo"
+                    },
+                    {
+                        "src": "assets/Images/The Experiment/Credits.png",
+                        "miniature": "assets/Images/The Experiment/Credits-miniature.png",
+                        "alt": "The Experiment credits"
+                    },
+                    {
+                        "src": "assets/Images/The Experiment/screen-incubateurs.png",
+                        "miniature": "assets/Images/The Experiment/screen-incubateurs-miniature.png",
+                        "alt": "Screen salle des incubateurs"
+                    },
+                    {
+                        "src": "assets/Images/The Experiment/screen-monstre.png",
+                        "miniature": "assets/Images/The Experiment/screen-monstre-miniature.png",
+                        "alt": "Screen monstre"
+                    }
+                ]
+            }
+        },
+        {
+            "order": 8,
+            "title": "Drag Queen Quest",
+            "type": "Plateformeur 3D",
+            "date": "2020",
+            "team": [
+                {
+                    "ecole": "Yummy Miam (Ydays)",
+                    "membres": [
+                        "Stanislas GEFFROY",
+                        "Axelle JACQUET",
+                        "Wendy RUSSO",
+                        "Roxana PALMERI",
+                        "Britanny LEDDA",
+                        "Guillaume RAIMUNDO",
+                        "Rémy DURAND"
+                    ]
+                }
+            ],
+            "work": [
+                "Je me suis concentré sur la partie plateforme de ce prototype. L’enjeu principal a été de mettre au point un système de déplacement, de saut qui convenait au commanditaire. Je me suis donc attelé a créé divers système de déplacement me basant sur les outils disponible sur Unity (Character Controller, RigidBody …) afin de lui présenter les divers possibilités et les lui faire tester.",
+                "Une fois le mode de déplacement fait. Il a fallu l’ajuster aux demandes pour que le niveau tutoriel puisse être réalisé. Ainsi que la mise en place du modèle 3D du personnage ainsi que la création de texture à partir des fichiers donnés par les artistes.",
+                "Le dernier challenge de ce prototype a été de concevoir un système de suivi de chemin. Stanislas voulais que le chemin emprunté par le joueur ne soit pas une simple ligne droite mais qu’il puisse suivre des courbes etc. Je me suis donc attelé à la tâche en mettant au point un système de checkpoint, modifiant la direction du personnage et lui permettant de suivre des chemins non linéaires.",
+                "La dernière phase du développement a été uniquement dédiée à la recherche. Ne pouvant continuer le développement du jeu avec l’équipe (n’ayant pas fini mon cursus scolaire), j’ai utilisé mon temps à mettre en place un document texte expliquant comment améliorer les systèmes mis en place, quelles pistes j’avais étudiés pour la suite du développement de la partie plateforme ainsi que ce qui avait été réfléchi au niveau de la partie combat afin que le ou les prochains développeurs ne partent pas de zéro avec mon code."
+            ],
+            "return": [
+                "La principale difficulté rencontrée lors de ce projet a été le manque de moyen humain pour le développement. Le fait d’être seul sur ce projet a forcé le commanditaire à revoir fortement à la baisse le contenu du prototype présenté à l’école. Sur la durée de développement 3 personnes ont été chargées de faire de la programmation, celui ayant dû quitter le groupe en milieu de parcours et un artiste qui avait des notions de développement mais qui a quitté le groupe en cours de route (remplacé par un autre artiste). Il a donc fallu à chaque fois récupérer leur code et le remanier afin que le tout soit cohérent ou plus simple à maintenir par la suite.",
+                "Il a fallu ensuite aussi pallier au manque de connaissance lors de l’intégration des textures. N’ayant jamais travaillé sur ce point il a fallu apprendre à créer des matériaux sur Unity applicable sur le modèle 3D.",
+                "Le dernier problème rencontré a été la communication. Ce projet a été fortement affecté par le confinement. Lors de cette période les échanges entre les membres se sont dégradés ainsi que le suivi du projet. Cela a entrainé du retard dans la production, le rendu des assets etc. La version ne contient donc pas tous les modèles 3D ni toutes les textures créées par les artistes (certaines ayant été rendues trop tard par rapport au rendu)."
+            ],
+            "shortDesc": {
+                "style": "Drag Queen Quest est un prototype de platefromeur 3D.",
+                "team": "Créé par une équipe de 7 étudiants"
+            },
+            "pitch": [
+                "Le soir d'une nuit pluvieuse, quatre Drag Queens à la renommée balbutiante sortent en pagaille d'une boîte de nuit dans laquelle elles avaient récemment été engagées. S'agrippant à leurs perruques et à leurs talons, elles fuient le videur furieux. Au détour d'une ruelle, elle disparaissent dans un flash aveuglant. Les Drag Queens se réveillent dans les ruines d'un château inconnu. Ici commence la Drag Queen Quest.",
+                "Princesse rebelle mais naïve, dieu lovecraftien destructeur et plus encore ! Telles setont les aventures qui feront évoluer nos reines dans un monde nouveau remplit de drame et surtout de fun !"
+            ],
+            "context": [
+                "Les Ydays de l’école Ynov Campus Aix-en-Provence est une des matières obligatoire pour chaque cursus. Il a pour but de mener à bien la réalisation de projets créés par les étudiants ou par des professionnels extérieurs à l’école. Chaque commanditaire crée son équipe parmi les étudiants de l’école.",
+                "Drag Queen Quest est un projet créé par Stanislas GEFFROY. Il a réuni une équipe de 8 personnes pour faire le prototype de son jeu (2 développeurs et 6 artistes). Lors de la première partie de l’année, suite à des problèmes externes, le deuxième développeur a du quitté l’équipe. Ce départ nous a forcés à reprendre le développement du début.",
+                "Le projet Drag Queen Quest devait se séparer en 2 parties. Une partie de plateforme en 2.5D (les personnages, les décors sont en 3D mais le personnage ne peut qu’avancer ou reculer) ayant pour référence la série des bloodstained principalement. Et une partie de combat en tour par tour ayant pour référence la série des Final Fantasy et Persona."
+            ],
+            "download": {
+                "link": "assets/executable/DragQueenQuest.zip",
+                "text": "DragQueenQuest.zip"
+            },
+            "git": "https://github.com/Ajirogg/DragQueenQuest",
+            "website": {
+                "icon": "assets/Images/facebook.png",
+                "text": "Page Facebook",
+                "url": "https://www.facebook.com/Yummy-Miam-Games-107080741021183"
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/DQQ/logo.png",
+                        "miniature": "assets/Images/DQQ/miniature-logo.png",
+                        "alt": "Logo Yummy Miam Games"
+                    }
+                ]
+            }
+        },
+        {
+            "order": 7,
+            "title": "Homme Care Agency",
+            "type": "Point and Click",
+            "date": "2020",
+            "team": [
+                {
+                    "ecole": "",
+                    "membres": []
+                }
+            ],
+            "return": [],
+            "work": [],
+            "shortDesc": {
+                "style": "Homme Care Agency est un pount and click.",
+                "team": "Créé durant la Global Game Jam 2020 par 6 étudiants"
+            },
+            "pitch": [],
+            "context": [],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": "",
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/HommeCareAgency/ecran_accueil.png",
+                        "miniature": "",
+                        "alt": "Homme Care Agency Main Screen"
+                    }
+                ]
+            }
+        },
+        {
+            "order": 6,
+            "title": "Potion Brawl",
+            "type": "Versus",
+            "date": "2019",
+            "team": [
+                {
+                    "ecole": "",
+                    "membres": []
+                }
+            ],
+            "return": [],
+            "work": [],
+            "shortDesc": {
+                "style": "Potion Brawl est un jeu de versus pour 2 joueurs en local.",
+                "team": "Créé en 20 heures par une équipe de 7 étudiants."
+            },
+            "pitch": [],
+            "context": [],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": "",
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/PotionBrawl/PotionBrawl.png",
+                        "miniature": "",
+                        "alt": "Potion Brawl logo"
+                    }
+                ]
+            }
+        },
+        {
+            "order": 5,
+            "title": "Welcome to New-York",
+            "type": "Survival",
+            "date": "2019",
+            "team": [
+                {
+                    "ecole": "UQAC",
+                    "membres": []
+                }
+            ],
+            "return": [],
+            "work": [],
+            "shortDesc": {
+                "style": "Welcome to New-York est un jeu de survie en coopération.",
+                "team": "Créé en 6 mois par une équipe de 8 étudiants."
+            },
+            "pitch": [],
+            "context": [],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": "",
+            "youtube": "https://youtu.be/uRhBMIcCesY",
+            "itchio": "",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/WTNY/screen.png",
+                        "miniature": "",
+                        "alt": "Screen WTNY"
+                    }
+                ]
+            }
+        },
+        {
+            "order": 4,
+            "title": "Hot'Stage",
+            "type": "Scoring Gestion",
+            "date": "2019",
+            "team": [
+                {
+                    "ecole": "",
+                    "membres": []
+                }
+            ],
+            "return": [],
+            "work": [],
+            "shortDesc": {
+                "style": "Hot'Stage est un e scoring 2D en vue top-down.",
+                "team": "Créé pendant la Wonder Jam d'hiver 2019 à l'UQAC par 7 étudiants."
+            },
+            "pitch": [],
+            "context": [],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": "",
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/Hotstage/artwork_main_screen.jpg",
+                        "miniature": "",
+                        "alt": "Hot'stage main screen artwork"
+                    }
+                ]
+            }
+        },
+        {
+            "order": 3,
+            "title": "Waterlily",
+            "type": "Serious game, Puzzle",
+            "date": "2018",
+            "team": [
+                {
+                    "ecole": "UQAC",
+                    "membres": [
+                        "Lucas MONNET",
+                        "Joaquim FERREIRA",
+                        "Killian BRACHER",
+                        "Edouard LEBEAUX",
+                        "Guilhem PECH",
+                        "Camille LAPPRAND",
+                        "Guillaume RAIMUNDO"
+                    ]
+                },
+                {
+                    "ecole": "NAD",
+                    "membres": [
+                        "Dalila HAFFIZ",
+                        "Casandra"
+                    ]
+                }
+            ],
+            "return": [],
+            "work": [],
+            "shortDesc": {
+                "style": "Waterlily est un prototype de serious-game.",
+                "team": "Créé en 3 mois par une équipe de 9 étudiants."
+            },
+            "pitch": [],
+            "context": [],
+            "download": {
+                "link": "assets/executable/Waterlilly.zip",
+                "text": "Waterlily.zip"
+            },
+            "git": "https://github.com/Ajirogg/Waterlily",
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "https://ajirog.itch.io/waterlily",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/Waterlilly/menu_screen.png",
+                        "miniature": "assets/Images/Waterlilly/menu_screen-miniature.png",
+                        "alt": "Waterlilly menu screen"
+                    },
+                    {
+                        "src": "assets/Images/Waterlilly/screenshot_1.png",
+                        "miniature": "assets/Images/Waterlilly/screenshot_1-miniature.png",
+                        "alt": "POV décor"
+                    },
+                    {
+                        "src": "assets/Images/Waterlilly/screenshot_2.png",
+                        "miniature": "assets/Images/Waterlilly/screenshot_2-miniature.png",
+                        "alt": "Map overview"
+                    },
+                    {
+                        "src": "assets/Images/Waterlilly/screenshot_3.png",
+                        "miniature": "assets/Images/Waterlilly/screenshot_3-miniature.png",
+                        "alt": "screenshot first part"
+                    }
+                ]
+            }
+        },
+        {
+            "order": 2,
+            "title": "The Amazing Awakening of The Overpowered Genius",
+            "type": "Rogue-like",
+            "date": "2018",
+            "team": [
+                {
+                    "ecole": "",
+                    "membres": []
+                }
+            ],
+            "return": [],
+            "work": [],
+            "shortDesc": {
+                "style": "TAATOG est un rogue like.",
+                "team": " Créé en 20 heures par une équipe de 5 étudiants."
+            },
+            "pitch": [],
+            "context": [],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": "",
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/TAATOG/Pochette.png",
+                        "miniature": "",
+                        "alt": "TAATOG jacket"
+                    }
+                ]
+            }
+        },
+        {
+            "order": 1,
+            "title": "Kinimi",
+            "type": "Puzzle",
+            "date": "2017",
+            "team": [
+                {
+                    "ecole": "",
+                    "membres": []
+                }
+            ],
+            "return": [],
+            "work": [],
+            "shortDesc": {
+                "style": "Kinimi est un projet scolaire visant à créer une plateforme ludo-éducative dans le but d'apprendre les maths et la programmation (niveau 3e).",
+                "team": "Créé en 3 mois par 6 étudiants"
+            },
+            "pitch": [],
+            "context": [],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": "",
+            "website": {
+                "icon": "assets/Images/web.png",
+                "text": "Page web",
+                "url": "http://test-kinimi.herokuapp.com/public/"
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "list": [
+                    {
+                        "src": "assets/Images/Kinimi/Board.png",
+                        "miniature": "",
+                        "alt": "Kinimi header"
+                    }
+                ]
+            }
+        }
+    ]
+}

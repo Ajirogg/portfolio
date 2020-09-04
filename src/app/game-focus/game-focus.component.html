@@ -50,18 +50,18 @@
             </a>
             <br *ngIf="game.website.url">
             <a *ngIf="game.download.link" [href]="game.download.link" [download]="game.download.text">
-                <img style="width: 30px; height: auto;" src="./../../assets/Images/exe.png" alt="Executable file">
-                {{game.download.text}}
+                <img style="width: 30px; height: auto;" src="./../../assets/Images/exe.png">
+                {{ game.download.text }}
             </a>
             <br *ngIf="game.download.link">
             <a *ngIf="game.itchio" [href]="game.itchio" target="_blank">
-                <img style="width: 30px; height: auto;" src="./../../assets/Images/itchio.png" alt="Itch io logo">
+                <img style="width: 30px; height: auto;" src="./../../assets/Images/itchio.png">
                 Page itch.io
             </a>
             <br *ngIf="game.itchio">
-            <a *ngIf="game.git" [href]="game.git" target="_blank">
-                <img style="width: 30px; height: auto;" src="./../../assets/Images/github.png" alt="Github logo">
-                Page Github
+            <a *ngIf="game.git.url" [href]="game.git.url" target="_blank">
+                <img style="width: 30px; height: auto;" [src]="game.git.icon">
+                {{ game.git.text }}
             </a>
 
         </div>

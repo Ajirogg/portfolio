@@ -13,17 +13,6 @@
                     ]
                 }
             ],
-            "return": [
-                "Ce projet a été très intéressant pour moi, avec la possibilité d’en apprendre plus sur le level design et sur les implications du game designer dans le jeu.",
-                "J’ai aussi pu découvrir le travail d’équipe dans un groupe plus important (plus de 8 personnes). Au début du projet, la taille de ce groupe de travail a posé problème, car nous avons commencé sans chef d’équipe. Le Nombre important d’artiste a posé problème, le projet prenant du retard car le niveau de travail était très hétérogène et des tensions sont apparues. Suite à l’apparition de ses tensions, des réunions ont été mises en place et 3 chefs d’équipe ont était nommés (2 pour les artistes qui ont alors était divisé en 2 groupes de travail, et 1 pour les développeurs).  La communication en a alors était améliorée et le travail a repris de manière plus homogène.",
-                "Lors du projet nous avons travaillé en méthode agile (SCRUM), et nous étions autonome (les intervenants ne prenant part à aucune  décision, n’intervenant que si nous leur demandions de l’aide). ",
-                "Le projet a aussi été retardé à cause de la remise en question constante des choix pris, entrainant des modifications sur le travail fait en pré-production. Ces différents problèmes nous ont forcés à faire des choix et à supprimer certaines parties du jeu non indispensable, qui ne pourrait être faites à temps. Certains cuts sont aussi apparu à cause du confinement, modifiant les emplois du temps et certains cours cruciaux ont été dispensés trop tard pour permettre leur utilisation."
-            ],
-            "work": [
-                "Durant la création du jeu, je me suis principalement attelé à la programmation d’une énigme ainsi qu’à la programmation des déplacements et de l’utilisation de la tablette du personnage. L’énigme (modifier par la suite) consistait à trouver un flacon d’acide pour faire fondre un cadenas nous donnant accès aux clefs de la prochaine portes.",
-                "J’ai aussi aidé le game designer à la mise en place du level design, des énigmes, ainsi qu’à la vérification de la cohérence des salles et du bon positionnement des énigmes.",
-                "A cause du confinement, je me suis retrouvé avec une connexion internet insuffisante pour récupérer le projet et continuer le développement. J’ai donc continué à aider le game designer à distance via partage d’écran."
-            ],
             "shortDesc": {
                 "style": "The Experiment est un jeu d'horreur.",
                 "team": "Créé en 6 mois par la promotion 2019 du campus Ynov Aix-en-Provence (18 étudiants)."
@@ -36,11 +25,26 @@
                 "The Experiment est un jeu d’horreur et d’énigme, le personnage incarné essaye de trouver des preuves de phénomène paranormal et de sortir du laboratoire. Le jeu tourne donc autour des énigmes qui vont permettre au joueur de sortir.",
                 "Le code a été réalisé en majoriter en blueprint sur Unreal. L'équipe était composée de 11 artistes, 6 développeurs et 1 game designer"
             ],
+            "work": [
+                "Durant la création du jeu, je me suis principalement attelé à la programmation d’une énigme ainsi qu’à la programmation des déplacements et de l’utilisation de la tablette du personnage. L’énigme (modifier par la suite) consistait à trouver un flacon d’acide pour faire fondre un cadenas nous donnant accès aux clefs de la prochaine portes.",
+                "J’ai aussi aidé le game designer à la mise en place du level design, des énigmes, ainsi qu’à la vérification de la cohérence des salles et du bon positionnement des énigmes.",
+                "A cause du confinement, je me suis retrouvé avec une connexion internet insuffisante pour récupérer le projet et continuer le développement. J’ai donc continué à aider le game designer à distance via partage d’écran."
+            ],
+            "return": [
+                "Ce projet a été très intéressant pour moi, avec la possibilité d’en apprendre plus sur le level design et sur les implications du game designer dans le jeu.",
+                "J’ai aussi pu découvrir le travail d’équipe dans un groupe plus important (plus de 8 personnes). Au début du projet, la taille de ce groupe de travail a posé problème, car nous avons commencé sans chef d’équipe. Le Nombre important d’artiste a posé problème, le projet prenant du retard car le niveau de travail était très hétérogène et des tensions sont apparues. Suite à l’apparition de ses tensions, des réunions ont été mises en place et 3 chefs d’équipe ont était nommés (2 pour les artistes qui ont alors était divisé en 2 groupes de travail, et 1 pour les développeurs).  La communication en a alors était améliorée et le travail a repris de manière plus homogène.",
+                "Lors du projet nous avons travaillé en méthode agile (SCRUM), et nous étions autonome (les intervenants ne prenant part à aucune  décision, n’intervenant que si nous leur demandions de l’aide). ",
+                "Le projet a aussi été retardé à cause de la remise en question constante des choix pris, entrainant des modifications sur le travail fait en pré-production. Ces différents problèmes nous ont forcés à faire des choix et à supprimer certaines parties du jeu non indispensable, qui ne pourrait être faites à temps. Certains cuts sont aussi apparu à cause du confinement, modifiant les emplois du temps et certains cours cruciaux ont été dispensés trop tard pour permettre leur utilisation."
+            ],
             "download": {
                 "link": "assets/executable/TheExperiment.zip",
                 "text": "TheExperiment.zip"
             },
-            "git": "https://gitlab.com/ynov_master/project_ana_2",
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://gitlab.com/ynov_master/project_ana_2",
+                "text": "Page GitHub"
+            },
             "website": {
                 "icon": "",
                 "text": "",
@@ -92,17 +96,6 @@
                     ]
                 }
             ],
-            "work": [
-                "Je me suis concentré sur la partie plateforme de ce prototype. L’enjeu principal a été de mettre au point un système de déplacement, de saut qui convenait au commanditaire. Je me suis donc attelé a créé divers système de déplacement me basant sur les outils disponible sur Unity (Character Controller, RigidBody …) afin de lui présenter les divers possibilités et les lui faire tester.",
-                "Une fois le mode de déplacement fait. Il a fallu l’ajuster aux demandes pour que le niveau tutoriel puisse être réalisé. Ainsi que la mise en place du modèle 3D du personnage ainsi que la création de texture à partir des fichiers donnés par les artistes.",
-                "Le dernier challenge de ce prototype a été de concevoir un système de suivi de chemin. Stanislas voulais que le chemin emprunté par le joueur ne soit pas une simple ligne droite mais qu’il puisse suivre des courbes etc. Je me suis donc attelé à la tâche en mettant au point un système de checkpoint, modifiant la direction du personnage et lui permettant de suivre des chemins non linéaires.",
-                "La dernière phase du développement a été uniquement dédiée à la recherche. Ne pouvant continuer le développement du jeu avec l’équipe (n’ayant pas fini mon cursus scolaire), j’ai utilisé mon temps à mettre en place un document texte expliquant comment améliorer les systèmes mis en place, quelles pistes j’avais étudiés pour la suite du développement de la partie plateforme ainsi que ce qui avait été réfléchi au niveau de la partie combat afin que le ou les prochains développeurs ne partent pas de zéro avec mon code."
-            ],
-            "return": [
-                "La principale difficulté rencontrée lors de ce projet a été le manque de moyen humain pour le développement. Le fait d’être seul sur ce projet a forcé le commanditaire à revoir fortement à la baisse le contenu du prototype présenté à l’école. Sur la durée de développement 3 personnes ont été chargées de faire de la programmation, celui ayant dû quitter le groupe en milieu de parcours et un artiste qui avait des notions de développement mais qui a quitté le groupe en cours de route (remplacé par un autre artiste). Il a donc fallu à chaque fois récupérer leur code et le remanier afin que le tout soit cohérent ou plus simple à maintenir par la suite.",
-                "Il a fallu ensuite aussi pallier au manque de connaissance lors de l’intégration des textures. N’ayant jamais travaillé sur ce point il a fallu apprendre à créer des matériaux sur Unity applicable sur le modèle 3D.",
-                "Le dernier problème rencontré a été la communication. Ce projet a été fortement affecté par le confinement. Lors de cette période les échanges entre les membres se sont dégradés ainsi que le suivi du projet. Cela a entrainé du retard dans la production, le rendu des assets etc. La version ne contient donc pas tous les modèles 3D ni toutes les textures créées par les artistes (certaines ayant été rendues trop tard par rapport au rendu)."
-            ],
             "shortDesc": {
                 "style": "Drag Queen Quest est un prototype de platefromeur 3D.",
                 "team": "Créé par une équipe de 7 étudiants"
@@ -116,11 +109,26 @@
                 "Drag Queen Quest est un projet créé par Stanislas GEFFROY. Il a réuni une équipe de 8 personnes pour faire le prototype de son jeu (2 développeurs et 6 artistes). Lors de la première partie de l’année, suite à des problèmes externes, le deuxième développeur a du quitté l’équipe. Ce départ nous a forcés à reprendre le développement du début.",
                 "Le projet Drag Queen Quest devait se séparer en 2 parties. Une partie de plateforme en 2.5D (les personnages, les décors sont en 3D mais le personnage ne peut qu’avancer ou reculer) ayant pour référence la série des bloodstained principalement. Et une partie de combat en tour par tour ayant pour référence la série des Final Fantasy et Persona."
             ],
+            "work": [
+                "Je me suis concentré sur la partie plateforme de ce prototype. L’enjeu principal a été de mettre au point un système de déplacement, de saut qui convenait au commanditaire. Je me suis donc attelé a créé divers système de déplacement me basant sur les outils disponible sur Unity (Character Controller, RigidBody …) afin de lui présenter les divers possibilités et les lui faire tester.",
+                "Une fois le mode de déplacement fait. Il a fallu l’ajuster aux demandes pour que le niveau tutoriel puisse être réalisé. Ainsi que la mise en place du modèle 3D du personnage ainsi que la création de texture à partir des fichiers donnés par les artistes.",
+                "Le dernier challenge de ce prototype a été de concevoir un système de suivi de chemin. Stanislas voulais que le chemin emprunté par le joueur ne soit pas une simple ligne droite mais qu’il puisse suivre des courbes etc. Je me suis donc attelé à la tâche en mettant au point un système de checkpoint, modifiant la direction du personnage et lui permettant de suivre des chemins non linéaires.",
+                "La dernière phase du développement a été uniquement dédiée à la recherche. Ne pouvant continuer le développement du jeu avec l’équipe (n’ayant pas fini mon cursus scolaire), j’ai utilisé mon temps à mettre en place un document texte expliquant comment améliorer les systèmes mis en place, quelles pistes j’avais étudiés pour la suite du développement de la partie plateforme ainsi que ce qui avait été réfléchi au niveau de la partie combat afin que le ou les prochains développeurs ne partent pas de zéro avec mon code."
+            ],
+            "return": [
+                "La principale difficulté rencontrée lors de ce projet a été le manque de moyen humain pour le développement. Le fait d’être seul sur ce projet a forcé le commanditaire à revoir fortement à la baisse le contenu du prototype présenté à l’école. Sur la durée de développement 3 personnes ont été chargées de faire de la programmation, celui ayant dû quitter le groupe en milieu de parcours et un artiste qui avait des notions de développement mais qui a quitté le groupe en cours de route (remplacé par un autre artiste). Il a donc fallu à chaque fois récupérer leur code et le remanier afin que le tout soit cohérent ou plus simple à maintenir par la suite.",
+                "Il a fallu ensuite aussi pallier au manque de connaissance lors de l’intégration des textures. N’ayant jamais travaillé sur ce point il a fallu apprendre à créer des matériaux sur Unity applicable sur le modèle 3D.",
+                "Le dernier problème rencontré a été la communication. Ce projet a été fortement affecté par le confinement. Lors de cette période les échanges entre les membres se sont dégradés ainsi que le suivi du projet. Cela a entrainé du retard dans la production, le rendu des assets etc. La version ne contient donc pas tous les modèles 3D ni toutes les textures créées par les artistes (certaines ayant été rendues trop tard par rapport au rendu)."
+            ],
             "download": {
                 "link": "assets/executable/DragQueenQuest.zip",
                 "text": "DragQueenQuest.zip"
             },
-            "git": "https://github.com/Ajirogg/DragQueenQuest",
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/Ajirogg/DragQueenQuest",
+                "text": "Page GitHub"
+            },
             "website": {
                 "icon": "assets/Images/facebook.png",
                 "text": "Page Facebook",
@@ -145,36 +153,78 @@
             "date": "2020",
             "team": [
                 {
-                    "ecole": "",
-                    "membres": []
+                    "ecole": "No Brain No Games ",
+                    "membres": [
+                        "Priscilla GOY",
+                        "Brittany LEDDA",
+                        "Florent GALVIN",
+                        "Alan MONNIER",
+                        "Loïc DISARBOIS",
+                        "Guillaume RAIMUNDO"
+                    ]
                 }
             ],
-            "return": [],
-            "work": [],
             "shortDesc": {
                 "style": "Homme Care Agency est un pount and click.",
                 "team": "Créé durant la Global Game Jam 2020 par 6 étudiants"
             },
-            "pitch": [],
-            "context": [],
+            "pitch": [
+                "Vous incarnez un psychiatre recevant différent patient dans son cabinet. Ces personnes ont besoin de vous ! Prêtez attention à leur attitude afin de comprendre leur pathologie et de les aider !"
+            ],
+            "context": [
+                "Homme Care Agency a été créé durant la Globale Game Jam 2020, ayant pour thème la réparation, par l’équipe No Brain No Games."
+            ],
+            "work": [
+                "Lors de cette game jam je me suis principalement attelé à faire mettre en place les données utiliser au cours du jeu (quels objets améliorent l’état, ou le dégrade pour chaque pathologie). Ainsi que la mise en place des assets dans la scène en fonction des directives du Game Designer.",
+                "Je me suis aussi atteler à la mise en place des animations (du psy et des patients)."
+            ],
+            "return": [
+                "Lors de cette game jam nous avons pu nous rendre compte que notre vision du temps de développement a été assez juste mais un manque de  structure dans l’équipe a fait que le projet n’a pas abouti à 100%.",
+                "Nous nous sommes aussi rendu compte que nous n’avions pas assez réfléchi à la compréhension simple du jeu. Beaucoup d’élément ne sont pas compréhensible sans avoir eu une explication. Un joueur qui lance le jeu sans explication peut jouer (perdre ou gagner) sans ne rien comprendre des implications et de l’effet de ses actions. Il aurait fallu prendre plus de temps sur l’introduction du jeu (comment jouer, quels interactions sont possibles etc) ou alors avec plus de temps/moyen, faire un niveau tutoriel extrêmement basique.",
+                "En définitive nous sommes fiers de notre réalisation, mais elle n’est pas réellement exploitable en l’état. "
+            ],
             "download": {
-                "link": "",
-                "text": ""
+                "link": "assets/executable/HommeCareAgency.zip",
+                "text": "HommeCareAgency.zip"
             },
-            "git": "",
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/Ajirogg/GGJ_NoBrainNoGame",
+                "text": "Page GitHub"
+            },
             "website": {
                 "icon": "",
                 "text": "",
-                "url": ""
+                "url": "https://globalgamejam.org/2020/games/hommecare-agency-1"
             },
             "youtube": "",
-            "itchio": "",
+            "itchio": "https://ajirog.itch.io/homme-care-agency",
             "img": {
                 "list": [
                     {
                         "src": "assets/Images/HommeCareAgency/ecran_accueil.png",
-                        "miniature": "",
+                        "miniature": "assets/Images/HommeCareAgency/ecran_accueil-miniature.png",
                         "alt": "Homme Care Agency Main Screen"
+                    },
+                    {
+                        "src": "assets/Images/HommeCareAgency/logo_studio.png",
+                        "miniature": "assets/Images/HommeCareAgency/logo_studio-miniature.png",
+                        "alt": "No Brain No Game Logo"
+                    },
+                    {
+                        "src": "assets/Images/HommeCareAgency/Credits.png",
+                        "miniature": "assets/Images/HommeCareAgency/Credits-miniature.png",
+                        "alt": "Homme Care Agency Credits Screen"
+                    },
+                    {
+                        "src": "assets/Images/HommeCareAgency/screen-1.png",
+                        "miniature": "assets/Images/HommeCareAgency/screen-1-miniature.png",
+                        "alt": "Screen 1"
+                    },
+                    {
+                        "src": "assets/Images/HommeCareAgency/screen-2.png",
+                        "miniature": "assets/Images/HommeCareAgency/screen-2-miniature.png",
+                        "alt": "Screen 2"
                     }
                 ]
             }
@@ -182,39 +232,84 @@
         {
             "order": 6,
             "title": "Potion Brawl",
-            "type": "Versus",
+            "type": "Fighting",
             "date": "2019",
             "team": [
                 {
-                    "ecole": "",
-                    "membres": []
+                    "ecole": "Ynov campus Aix-en-Provence",
+                    "membres": [
+                        "Émélie Philippe",
+                        "Morganne Michot",
+                        "Thomas Audibert",
+                        "Johann Natouri",
+                        "Mathis Abdou",
+                        "Guillaume RAIMUNDO"
+                    ]
                 }
             ],
-            "return": [],
-            "work": [],
             "shortDesc": {
                 "style": "Potion Brawl est un jeu de versus pour 2 joueurs en local.",
                 "team": "Créé en 20 heures par une équipe de 7 étudiants."
             },
-            "pitch": [],
-            "context": [],
+            "pitch": [
+                "Vous êtes deux puissants sorciers qui se battent à coup de potions explosives. Soyez rapide, esquivez et lancez-vous dans une bataille épique pour la domination magique !"
+            ],
+            "context": [
+                "Potion Brawl est un jeu créé dans le cadre d’une game jam de 20 heures, organisée lors  du cursus scolaire de l’école Ynov campus Aix-en-Provence avec une équipe imposée.",
+                "Potion Brawl est un jeu créé à partir de 2 pitch choisis parmis une liste qui sont : ",
+                "       - A l'aide de votre personnage, des éléments disposés dans le niveau et/ou à vos compétences, éjectez votre adversaire en dehors de l'arène.",
+                "       - Une bombe est sur le point d'exploser, donnez la à votre adversaire avant la fin du compte à rebours.",
+                "Cet exercice a mélangé des étudiants de Master 1 et 2 et a été réalisé sur Unity."
+            ],
+            "work": [
+                "Lors de cette game jam, j’ai commencé par la mise en place des déplacements des joueurs, ainsi que de la mise en place de leur seul action, donner un coup dans les bombes pour les envoyer sur l’adversaire.",
+                "Une fois le personnage fait, je me suis attelé à la création des différentes bombes disponible dans le jeu (et leurs effets)."
+            ],
+            "return": [
+                "Ce travail a été très plaisant à faire, l’équipe communiquait bien et le développement c’est en somme bien déroulé.",
+                "Le projet comme souvent en game jam a dû être revu un peu à la baisse (il y a moins de bombes que prévus et moins de visuels de terrain).  Mais le jeu est complet, compréhensible et jouable !"
+            ],
             "download": {
-                "link": "",
-                "text": ""
+                "link": "assets/executable/Potion Braw.zip",
+                "text": "Potion Brawl.zip"
             },
-            "git": "",
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/mat13109/Project-satan/",
+                "text": "Page GitHub"
+            },
             "website": {
                 "icon": "",
                 "text": "",
                 "url": ""
             },
             "youtube": "",
-            "itchio": "",
+            "itchio": "https://mat-mox.itch.io/potion-brawl",
             "img": {
                 "list": [
                     {
                         "src": "assets/Images/PotionBrawl/PotionBrawl.png",
-                        "miniature": "",
+                        "miniature": "assets/Images/PotionBrawl/PotionBrawl-miniature.png",
+                        "alt": "Potion Brawl logo"
+                    },
+                    {
+                        "src": "assets/Images/PotionBrawl/Credits.png",
+                        "miniature": "assets/Images/PotionBrawl/Credits-miniature.png",
+                        "alt": "Potion Brawl logo"
+                    },
+                    {
+                        "src": "assets/Images/PotionBrawl/controles.png",
+                        "miniature": "assets/Images/PotionBrawl/controles-miniature.png",
+                        "alt": "Potion Brawl logo"
+                    },
+                    {
+                        "src": "assets/Images/PotionBrawl/screen-1.png",
+                        "miniature": "assets/Images/PotionBrawl/screen-1-miniature.png",
+                        "alt": "Potion Brawl logo"
+                    },
+                    {
+                        "src": "assets/Images/PotionBrawl/screen-2.png",
+                        "miniature": "assets/Images/PotionBrawl/screen-2-miniature.png",
                         "alt": "Potion Brawl logo"
                     }
                 ]
@@ -228,29 +323,85 @@
             "team": [
                 {
                     "ecole": "UQAC",
-                    "membres": []
+                    "membres": [
+                        "Antonin PERROT",
+                        "Camille LAPPRAND",
+                        "Killian BRACHER",
+                        "Joaquim FERREIRA",
+                        "Edouard LEBEAU",
+                        "Lucas MONNET",
+                        "Guilhem PECH",
+                        "Guillaume RAIMUNDO"
+                    ]
                 }
             ],
-            "return": [],
-            "work": [],
             "shortDesc": {
                 "style": "Welcome to New-York est un jeu de survie en coopération.",
                 "team": "Créé en 6 mois par une équipe de 8 étudiants."
             },
-            "pitch": [],
-            "context": [],
+            "pitch": [
+                "Dans une réalité alternative, des créatures venus des ténèbres envahissent le monde entier. L’union européenne est tombée, le continent africain n’a plus donné de signes de vie depuis plusieurs semaines et l’Asie est considéré comme perdue depuis plusieurs mois. Désormais, c’est le continent américain qui est menacé.",
+                "Des portails d’invocation commencent à se créer sur Ellis Island, et l’Organisation à envoyez des agents en première ligne, vous, pour faire gagner le plus de temps possible à l’humanité.",
+                "Incarnez Ae, Joe ou Aji et défendez avec vos amis le dernier bastion de l'humanité."
+            ],
+            "context": [
+                "Welcome to New-York  est notre projet de fin d'année de l'UQAC. Il a été créé en 6 mois sous Unity et est mon premier jeu en réseau."
+            ],
+            "work": [
+                "Avec Killian BRACHER, notre principale mission a été de développer les déplacements des personnages, leurs attaques ainsi que leur coup spécial. Ainsi que d’essayer d’équilibrer le jeu entre la puissance des personnages, les effets des coups spéciaux et la vie des joueurs et des ennemis.",
+                "Une fois le réseau mis en place il a fallu adapter tout notre code pour qu’il soit répliqué chez chaque joueur."
+            ],
+            "return": [
+                "Ce projet a été assez laborieux car nous débutions en jeu en réseau ainsi qu’en IA. Et une de nos grosses erreurs a été de ne pas avoir mis plusieurs personnes sur le réseau et sur l’IA (une seule personne pour chaque). Ce qui a rendu complexe la résolution de bug sur la fin du projet (durant le rush de fin surtout en réseau ou seule la personne qui l’a développé savait vraiment comment cela fonctionné et comment nous pouvions la réparer).",
+                "Le projet a été aussi vu trop gros. Nous voulions implémenter 8 personnages différents (un par potentiel joueur) et que chaque personnage ne puisse être pris que par un seul joueur. Nous avons dû nous contenter de 3 personnages finis (un 4e était en développement mais n’a pas pu être fini a temps).",
+                "Ce projet m’a appris à travailler en équipe au sein d’une équipe plus grande. Nous nous sommes répartis les tâches en fonctions de nos envies et de nos connaissances. Ce projet était trop ambitieux pour un premier gros projet mais a été très instructifs sur la façon de gérer une équipe, sur le besoin de canaux de communications clairs et de la répartition des tâches."
+            ],
             "download": {
-                "link": "",
-                "text": ""
+                "link": "assets/executable/WTNY.zip",
+                "text": "WTNY.zip"
             },
-            "git": "",
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/Guilhem-Pech/WelcomeToNewYork_",
+                "text": "Page GitHub"
+            },
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
             "youtube": "https://youtu.be/uRhBMIcCesY",
-            "itchio": "",
+            "itchio": "https://ajirog.itch.io/welcome-to-new-york",
             "img": {
                 "list": [
                     {
                         "src": "assets/Images/WTNY/screen.png",
-                        "miniature": "",
+                        "miniature": "assets/Images/WTNY/screen-miniature.png",
+                        "alt": "Screen WTNY"
+                    },
+                    {
+                        "src": "assets/Images/WTNY/Screen-1.png",
+                        "miniature": "assets/Images/WTNY/Screen-1-miniature.png",
+                        "alt": "Screen Aji"
+                    },
+                    {
+                        "src": "assets/Images/WTNY/Screen-2.png",
+                        "miniature": "assets/Images/WTNY/Screen-2-miniature.png",
+                        "alt": "Screen Joe"
+                    },
+                    {
+                        "src": "assets/Images/WTNY/Screen-3.png",
+                        "miniature": "assets/Images/WTNY/Screen-3-miniature.png",
+                        "alt": "Screen Ae"
+                    },
+                    {
+                        "src": "assets/Images/WTNY/Recap perso.png",
+                        "miniature": "assets/Images/WTNY/Recap perso-miniature.png",
+                        "alt": "Screen WTNY"
+                    },
+                    {
+                        "src": "assets/Images/WTNY/Ennemis recap.png",
+                        "miniature": "assets/Images/WTNY/Ennemis recap-miniature.png",
                         "alt": "Screen WTNY"
                     }
                 ]
@@ -263,36 +414,76 @@
             "date": "2019",
             "team": [
                 {
-                    "ecole": "",
-                    "membres": []
+                    "ecole": "Waterlily",
+                    "membres": [
+                        "Killian BRACHER",
+                        "Lucas MONNET",
+                        "Guilhem PECH",
+                        "Joaquim FERREIRA",
+                        "Maxime LACHAUD",
+                        "Julien BILODEAU",
+                        "Guillaume RAIMUNDO"
+                    ]
                 }
             ],
-            "return": [],
-            "work": [],
             "shortDesc": {
                 "style": "Hot'Stage est un e scoring 2D en vue top-down.",
                 "team": "Créé pendant la Wonder Jam d'hiver 2019 à l'UQAC par 7 étudiants."
             },
-            "pitch": [],
-            "context": [],
+            "pitch": [
+                "Vous incarnez un braqueur dont le braquage a mal tourné.  Votre but, arriver à extraire le plus d'argent possible en tenant en respect vos otages et en maintenant la police à l'extérieur du bâtiment."
+            ],
+            "context": [
+                "Hot’Stage a été développé en 48 heures lors de la Wonder Jam 2019, une game jam organisée par l’Université du Québec A Chicoutimi. Le thème imposer était la Pression et les styles associés étaient Dialogue et Gestion. ",
+                "Notre équipe était formée de 6 élèves de troisième année de baccalauréat (équivalent L3) et un élève de première année."
+            ],
+            "work": [
+                "Durant cette game jam j’ai surtout travaillé sur l’indice d’énervement de la police. Je me suis aussi occupé des feedbacks liés (Le design de la voiture de police, l’animation de son arrivée, l’apparition des lumières bleu et rouge sur l’écran).",
+                "J’ai également développé la boucle du téléphone (rythme d’appel, énervement lié à l’attente lors de la sonnerie).",
+                "Je me suis aussi occupé de faire une partie des « questions réponses » des dialogues possibles lors des appels de la police ou des conversations avec les otages."
+            ],
+            "return": [
+                "Avant tout je tiens à remercier Mark Orzechowski pour avoir accepté de nous laisser utiliser son travail en tant que fond d'écran de menu.",
+                "Ce développement a été marqué par une fin assez chaotique car l’équipe a majoritairement demandé des changements de dernières minutes qui ont entrainé un rush non nécessaire et la perte de certains feedbacks (sur le rendu, le sonar ne fonctionnait plus par exemple). Mais il a quand même était possible de rendre un jeu jouable et agréable.",
+                "Malgré cette fin compliquée, ce projet reste une expérience agréable car tous les participants étaient réunis dans une même salle, ce qui permet des échanges entre les groupes, de l’entraide etc. entre des personnes très différentes (nous avons pu discuter avec des étudiants de master, avec des professionnels d’Ubisoft, d’autres élèves de notre promotion) et ainsi voir l’étendu de créativité et d’interprétation autour de thèmes généraux et assez simple."
+            ],
             "download": {
-                "link": "",
-                "text": ""
+                "link": "assets/executable/HOTSTAGE.zip",
+                "text": "Hot'Stage.zip"
             },
-            "git": "",
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/Ajirogg/MarmeladeDeJeu",
+                "text": "Page GitHub"
+            },
             "website": {
                 "icon": "",
                 "text": "",
                 "url": ""
             },
             "youtube": "",
-            "itchio": "",
+            "itchio": "https://ajirog.itch.io/hotstage",
             "img": {
                 "list": [
                     {
-                        "src": "assets/Images/Hotstage/artwork_main_screen.jpg",
-                        "miniature": "",
-                        "alt": "Hot'stage main screen artwork"
+                        "src": "assets/Images/Hotstage/Mainscreen.png",
+                        "miniature": "assets/Images/Hotstage/Mainscreen-miniature.png",
+                        "alt": "Hot'stage main screen"
+                    },
+                    {
+                        "src": "assets/Images/Hotstage/screen-1.png",
+                        "miniature": "assets/Images/Hotstage/screen-1-miniature.png",
+                        "alt": "screen-1"
+                    },
+                    {
+                        "src": "assets/Images/Hotstage/screen-2.png",
+                        "miniature": "assets/Images/Hotstage/screen-2-miniature.png",
+                        "alt": "screen-2"
+                    },
+                    {
+                        "src": "assets/Images/Hotstage/screen-3.png",
+                        "miniature": "assets/Images/Hotstage/screen-3-miniature.png",
+                        "alt": "screen-3"
                     }
                 ]
             }
@@ -323,19 +514,35 @@
                     ]
                 }
             ],
-            "return": [],
-            "work": [],
             "shortDesc": {
                 "style": "Waterlily est un prototype de serious-game.",
                 "team": "Créé en 3 mois par une équipe de 9 étudiants."
             },
-            "pitch": [],
-            "context": [],
+            "pitch": [
+                "Vous incarnez une goutte d'eau qui doit rejoindre une plante pour l'abreuver. Dans cet unique niveau vous devez vous déplacez jusqu'à elle en évitant les différents pièges (saleté, papier absorbant etc...) en essayant d'amasser le plus de gouttes possible."
+            ],
+            "context": [
+                "Waterlily est un prototype de jeu sérieux, développé à l’UQAC, c’est le projet de fin du premier semestre. Le thème du jeu sérieux était imposé. Nous avons décidé de partir sur la sensibilisation des enfants et adolescents au gaspillage de l'eau. ",
+                "Le jeu devait se dérouler en X niveau de difficulté grandissante et adaptative. Si le joueur arrive a économiser le maximum d’eau possible il sera en mesure d’éviter que les niveaux s’assèche et que la température globale augmente, rendant plus difficile la sauvegarde de l’eau.",
+                "Ce projet est une collaboration entre les élèves du NAD et de l’UQAC développé avec Unreal. "
+            ],
+            "work": [
+                "Durant ce projet, je me suis occupé avec Killian BRACHER du contrôle du personnage ainsi que de la physique qui y était lié. Nous avons également travaillé sur les interactions avec le décors  et les objets présents dans le niveau (l’absorption des gouttes d’eau, ainsi que des surface absorbantes à éviter)."
+            ],
+            "return": [
+                "Durant ce développement je n’avais pas de matériel assez puissant pour utiliser Unreal, c’est pourquoi ma part de travail a été entièrement faite en collaboration avec Killian BRACHER.",
+                "Ce projet a été très pénible pour toute l’équipe car des tensions sont très vite apparues. Des différents entre une élève du NAD et les autres membres de l’équipe ont empêché le bon déroulement du projet. La hiérarchie qui avait été mise en place au début n’a pas été respectée, et l’élève en question a ralenti le processus de création en plus de ne pas rendre de travail suffisant. Les professeurs ne nous ayant pas aidé sur ce problème, notre première expérience de travail au sein d’une équipe ou tout le monde ne se connaissait pas a été compliquée.",
+                "Malgré ces problèmes le jeu a été apprécié par le jury et le concept a été très apprécié. Et une version jouable a pu être rendue."
+            ],
             "download": {
                 "link": "assets/executable/Waterlilly.zip",
                 "text": "Waterlily.zip"
             },
-            "git": "https://github.com/Ajirogg/Waterlily",
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/Ajirogg/Waterlily",
+                "text": "Page GitHub"
+            },
             "website": {
                 "icon": "",
                 "text": "",
@@ -379,19 +586,23 @@
                     "membres": []
                 }
             ],
-            "return": [],
-            "work": [],
             "shortDesc": {
                 "style": "TAATOG est un rogue like.",
                 "team": " Créé en 20 heures par une équipe de 5 étudiants."
             },
             "pitch": [],
             "context": [],
+            "work": [],
+            "return": [],
             "download": {
                 "link": "",
                 "text": ""
             },
-            "git": "",
+            "git": {
+                "icon": "",
+                "url": "",
+                "text": ""
+            },
             "website": {
                 "icon": "",
                 "text": "",
@@ -420,19 +631,23 @@
                     "membres": []
                 }
             ],
-            "return": [],
-            "work": [],
             "shortDesc": {
                 "style": "Kinimi est un projet scolaire visant à créer une plateforme ludo-éducative dans le but d'apprendre les maths et la programmation (niveau 3e).",
                 "team": "Créé en 3 mois par 6 étudiants"
             },
             "pitch": [],
             "context": [],
+            "work": [],
+            "return": [],
             "download": {
                 "link": "",
                 "text": ""
             },
-            "git": "",
+            "git": {
+                "icon": "",
+                "url": "",
+                "text": ""
+            },
             "website": {
                 "icon": "assets/Images/web.png",
                 "text": "Page web",

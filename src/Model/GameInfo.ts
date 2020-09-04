@@ -13,7 +13,11 @@ export class GameInfo {
         link: string,
         text: string
     };
-    git: string;
+    git:{
+        icon: string,
+        url: string,
+        text: string
+    };
     itchio: string;
     youtube: string;
     website: { icon: string, text: string, url: string };

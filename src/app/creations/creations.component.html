@@ -2,7 +2,7 @@
     <div *ngFor="let game of games; let index = index" (click)="loadPage(game)">
         <div *ngIf="index % 2 === 0" class="row mb-4 align-items-center divtopage" style="border-radius: 25px">
             <img class="col-4 p-0 m-0" style="width: 100%; border-radius: 25px 0px 0px 25px;"
-                [src]="game.img.list[0].src" [alt]="game.img.list[0].alt">
+            [src]="game.img.imgCard.src" [alt]="game.img.imgCard.alt">
             <div class="col-8 border-left">
                 <h4 class="titleCreation">{{ game.title }} ({{ game.date }})</h4>
                 <p class="mt-4">{{ game.shortDesc.style }} <br> {{ game.shortDesc.team }}</p>
@@ -15,7 +15,7 @@
                 <p class="mt-4">{{ game.shortDesc.style }} <br> {{ game.shortDesc.team }}</p>
             </div>
             <img class="col-4 p-0 m-0 border-left" style="width: 100%; border-radius: 0px 25px 25px 0px;"
-                [src]="game.img.list[0].src" [alt]="game.img.list[0].alt">
+                [src]="game.img.imgCard.src" [alt]="game.img.imgCard.alt">
         </div>
     </div>
 </div>

@@ -13,7 +13,7 @@ export class GameInfo {
         link: string,
         text: string
     };
-    git:{
+    git: {
         icon: string,
         url: string,
         text: string
@@ -22,10 +22,14 @@ export class GameInfo {
     youtube: string;
     website: { icon: string, text: string, url: string };
     img: {
+        imgCard: {
+            src: string
+            alt: string
+        },
         list: {
             src: string,
             miniature: string,
             alt: string
-        }[],
+        }[]
     }
 }

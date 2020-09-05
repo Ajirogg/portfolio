@@ -53,6 +53,10 @@
             "youtube": "",
             "itchio": "",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/The Experiment/logo.png",
+                    "alt": "The Experiment logo"
+                },
                 "list": [
                     {
                         "src": "assets/Images/The Experiment/logo.png",
@@ -137,10 +141,24 @@
             "youtube": "",
             "itchio": "",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/DQQ/logo.png",
+                    "alt": "Logo Yummy Miam Games"
+                },
                 "list": [
                     {
-                        "src": "assets/Images/DQQ/logo.png",
-                        "miniature": "assets/Images/DQQ/miniature-logo.png",
+                        "src": "assets/Images/DQQ/logo_1920.png",
+                        "miniature": "assets/Images/DQQ/logo_1920-miniature.png",
+                        "alt": "Logo Yummy Miam Games"
+                    },
+                    {
+                        "src": "assets/Images/DQQ/screen-1.png",
+                        "miniature": "assets/Images/DQQ/screen-1-miniature.png",
+                        "alt": "Logo Yummy Miam Games"
+                    },
+                    {
+                        "src": "assets/Images/DQQ/screen-2.png",
+                        "miniature": "assets/Images/DQQ/screen-2-miniature.png",
                         "alt": "Logo Yummy Miam Games"
                     }
                 ]
@@ -200,6 +218,10 @@
             "youtube": "",
             "itchio": "https://ajirog.itch.io/homme-care-agency",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/HommeCareAgency/ecran_accueil.png",
+                    "alt": "Homme Care Agency Main Screen"
+                },
                 "list": [
                     {
                         "src": "assets/Images/HommeCareAgency/ecran_accueil.png",
@@ -286,6 +308,10 @@
             "youtube": "",
             "itchio": "https://mat-mox.itch.io/potion-brawl",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/PotionBrawl/PotionBrawl.png",
+                    "alt": "Potion Brawl logo"
+                },
                 "list": [
                     {
                         "src": "assets/Images/PotionBrawl/PotionBrawl.png",
@@ -373,6 +399,10 @@
             "youtube": "https://youtu.be/uRhBMIcCesY",
             "itchio": "https://ajirog.itch.io/welcome-to-new-york",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/WTNY/screen.png",
+                    "alt": "Screen WTNY"
+                },
                 "list": [
                     {
                         "src": "assets/Images/WTNY/screen.png",
@@ -464,6 +494,10 @@
             "youtube": "",
             "itchio": "https://ajirog.itch.io/hotstage",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/Hotstage/Mainscreen.png",
+                    "alt": "Hot'stage main screen"
+                },
                 "list": [
                     {
                         "src": "assets/Images/Hotstage/Mainscreen.png",
@@ -551,6 +585,10 @@
             "youtube": "",
             "itchio": "https://ajirog.itch.io/waterlily",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/Waterlilly/menu_screen.png",
+                    "alt": "Waterlilly menu screen"
+                },
                 "list": [
                     {
                         "src": "assets/Images/Waterlilly/menu_screen.png",
@@ -629,11 +667,30 @@
             "youtube": "https://youtu.be/2WNnshN7QFc",
             "itchio": "",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/TAATOG/Pochette.png",
+                    "alt": "TAATOG jacket"
+                },
                 "list": [
                     {
-                        "src": "assets/Images/TAATOG/Pochette.png",
-                        "miniature": "",
+                        "src": "assets/Images/TAATOG/Pochette_1920.png",
+                        "miniature": "assets/Images/TAATOG/Pochette_1920-miniature.png",
                         "alt": "TAATOG jacket"
+                    },
+                    {
+                        "src": "assets/Images/TAATOG/mainscreen.png",
+                        "miniature": "assets/Images/TAATOG/mainscreen-miniature.png",
+                        "alt": "TAATOG main menu"
+                    },
+                    {
+                        "src": "assets/Images/TAATOG/screen-1.png",
+                        "miniature": "assets/Images/TAATOG/screen-1-miniature.png",
+                        "alt": "TAATOG screen"
+                    },
+                    {
+                        "src": "assets/Images/TAATOG/screen-2.png",
+                        "miniature": "assets/Images/TAATOG/screen-2-miniature.png",
+                        "alt": "TAATOG items"
                     }
                 ]
             }
@@ -693,11 +750,30 @@
             "youtube": "",
             "itchio": "",
             "img": {
+                "imgCard": {
+                    "src": "assets/Images/Kinimi/Board.png",
+                    "alt": "Kinimi header"
+                },
                 "list": [
                     {
-                        "src": "assets/Images/Kinimi/Board.png",
-                        "miniature": "",
+                        "src": "assets/Images/Kinimi/board_1920.png",
+                        "miniature": "assets/Images/Kinimi/board_1920-miniature.png",
                         "alt": "Kinimi header"
+                    },
+                    {
+                        "src": "assets/Images/Kinimi/homepage.png",
+                        "miniature": "assets/Images/Kinimi/homepage-miniature.png",
+                        "alt": "Kinimi Home page"
+                    },
+                    {
+                        "src": "assets/Images/Kinimi/menu.png",
+                        "miniature": "assets/Images/Kinimi/menu-miniature.png",
+                        "alt": "Kinimi Escape colle menu"
+                    },
+                    {
+                        "src": "assets/Images/Kinimi/jeu.png",
+                        "miniature": "assets/Images/Kinimi/jeu-miniature.png",
+                        "alt": "Kinimi escape colle jeu"
                     }
                 ]
             }

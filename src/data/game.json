@@ -595,8 +595,8 @@
             "work": [],
             "return": [],
             "download": {
-                "link": "",
-                "text": ""
+                "link": "assets/executable/TAATOG.exe",
+                "text": "TAATOG.exe"
             },
             "git": {
                 "icon": "",

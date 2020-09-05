@@ -42,7 +42,7 @@
                 Trailer
             </a>
             <br *ngIf="game.youtube">
-            <a *ngIf="game.website.url" [href]="game.website" target="_blank">
+            <a *ngIf="game.website.url" [href]="game.website.url" target="_blank">
                 <img style="width: 30px; height: auto;" [src]="game.website.icon">
                 {{ game.website.text }}
             </a>

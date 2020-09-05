@@ -582,18 +582,36 @@
             "date": "2018",
             "team": [
                 {
-                    "ecole": "",
-                    "membres": []
+                    "ecole": "Equipe 'U'",
+                    "membres": [
+                        "Jarno Baeijs",
+                        "Thibaut De Nicolas",
+                        "Hydriss Ruet",
+                        "Emile Calixte",
+                        "Guillaume Raimundo"
+                    ]
                 }
             ],
             "shortDesc": {
                 "style": "TAATOG est un rogue like.",
                 "team": " Créé en 20 heures par une équipe de 5 étudiants."
             },
-            "pitch": [],
-            "context": [],
-            "work": [],
-            "return": [],
+            "pitch": [
+                "Vous vous réveillez dans un donjon, dans une époque inconnue. Votre objectif, vous préparer à affronter le boss de ce donjon. Mais attention, ce nouvel univers…. N’a aucun sens !"
+            ],
+            "context": [
+                "TAATOG a été développé en 4 jours pendant la game jam organisé par l’IUT 2 de Grenoble avec deux contraintes. Des évènements aléatoires, et la re-jouabilité. Le langage Ruby avec la gem GOSU a aussi été imposé et dévoilé au début de la game jam.",
+                "TAATOG a été classé 2e parmi toutes les créations de la promotion."
+            ],
+            "work": [
+                "Durant cette game jam je me suis d’abord préoccupé du développement des déplacements du personnage principal et de la physique.",
+                "Je me suis aussi occupé du design et de l’animation d’ennemis, ainsi que d’élément de décors.",
+                "Je me suis aussi occupé de l’intégration des items utilisable dans le jeu et à « l’animation »  de l’attaque du personnage."
+            ],
+            "return": [
+                "Cette game jam a été ma première expérience dans le développement d’un jeu complet. Elle a été très agréable et le résultat obtenu est conforme à ce que l’on avait prévu.",
+                "Il reste encore des problèmes de collisions, d’optimisation et de génération aléatoire du à notre manque de connaissance du langage et du peu de temps que nous avons eu pour nous former dessus."
+            ],
             "download": {
                 "link": "assets/executable/TAATOG.exe",
                 "text": "TAATOG.exe"
@@ -608,7 +626,7 @@
                 "text": "",
                 "url": ""
             },
-            "youtube": "",
+            "youtube": "https://youtu.be/2WNnshN7QFc",
             "itchio": "",
             "img": {
                 "list": [
@@ -627,26 +645,45 @@
             "date": "2017",
             "team": [
                 {
-                    "ecole": "",
-                    "membres": []
+                    "ecole": "IUT 2 de Grenoble",
+                    "membres": [
+                        "Vincent AUBRIOT",
+                        "Jarno BAEIJS",
+                        "Emile CALIXTE",
+                        "Léandre SALAMANI",
+                        "Jules SANG",
+                        "Adam SELVAGGIO",
+                        "Guillaume RAIMUNDO"
+                    ]
                 }
             ],
             "shortDesc": {
                 "style": "Kinimi est un projet scolaire visant à créer une plateforme ludo-éducative dans le but d'apprendre les maths et la programmation (niveau 3e).",
                 "team": "Créé en 3 mois par 6 étudiants"
             },
-            "pitch": [],
-            "context": [],
-            "work": [],
-            "return": [],
+            "pitch": [
+                "Guide Kini à travers des salles remplies de mécanismes, trappes et autres dangers et deviens le roi de l'Escape-Colle !"
+            ],
+            "context": [
+                "Avant tout chose, le site est disponible parmi les liens. Il est hébergé gratuitement par un membre de l’équipe, c’est pourquoi nous vous demandons de ne pas créer de compte (l’espace qui nous est alloué est assez restreint). Les identifiants du compte de test sont disponible sur la page de connexion du site.",
+                "Kinimi est une plateforme web créée en 3 mois lors de notre 2e année de DUT informatique. Le but était de créer une plateforme ludo-éducative pour permettre aux élèves de 3e de réviser les mathématiques et l’informatique.",
+                "Le site regroupe deux parties. Une partie pour les mathématiques, qui regroupe soit des histoires interactives intégrant des exercices, soit directement des exercices. Ainsi qu’une partie pour l’informatique qui se compose en une série de niveau ou le joueur va devoir sortir de la pièce où il se trouve en codant les déplacements de Kini (son personnage) avec du code scratch."
+            ],
+            "work": [
+                "Lors de ce projet je me suis occupé de la partie graphique du site. La bannière, le design du personnage, des décors du jeu Escape Colle. Ainsi que des croquis qui devait apparaitre au fil des histoires de mathématique mais qui n’ont pu être intégré faute de temps.",
+                "Je me suis aussi occupé du level design des 4 niveaux d’escape colle."
+            ],
+            "return": [
+                "Ce projet a été mon premier projet impliquant un jeu. Ce projet fut agréable et je me suis plu à m’occuper de la partie purement graphique. Cela m’a permis de me faire une première expérience dans le level-design qui m’as plu mais dans lequel je me suis rendu compte de la limite de mes connaissances dans ce domaine."
+            ],
             "download": {
                 "link": "",
                 "text": ""
             },
             "git": {
-                "icon": "",
-                "url": "",
-                "text": ""
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/vincent38/informathique_",
+                "text": "Page GitHub"
             },
             "website": {
                 "icon": "assets/Images/web.png",

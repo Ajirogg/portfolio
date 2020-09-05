@@ -1,18 +1,16 @@
 <!-- Header -->
 
-<div class="text-center">
-    <h2 class="text-center pt-2 pb-2">{{ game.title }}</h2>
-</div>
 
-<!-- Left Panel -->
+
 
 <div class="row pl-1">
+<!-- Left Panel -->
 
-    <div class="col-4 metadata">
+    <div class="col-5 metadata">
 
         <div class="p-2">
             <p-galleria *ngIf="game.img.list.length > 1" [(value)]="game.img.list"
-                [containerStyle]="{'max-width': '660px'}" [numVisible]="3">
+                 [numVisible]="3">
                 <ng-template pTemplate="item" let-item>
                     <img [src]="item.src" style="width: 100%; display: block;" [alt]="item.alt" />
                 </ng-template>
@@ -71,7 +69,11 @@
 
     <!-- Right Panel -->
 
-    <div class="col-8">
+    <div class="gamedesc col-7">
+        <div class="text-center">
+            <h2 class="text-center pt-2 pb-2">{{ game.title }}</h2>
+        </div>
+        
         <div #Pitch *ngIf="game.pitch.length" class="p-2">
             <h4 style="text-decoration: underline;">Pitch :</h4>
             <div class="pl-3">

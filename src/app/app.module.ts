@@ -14,8 +14,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { GameFocusComponent } from './game-focus/game-focus.component'
 
 const appRoutes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'About Me' },
-  { path: 'About Me', component: AboutMeComponent },
+  { path: '', pathMatch: 'full', redirectTo: 'A Propos' },
+  { path: 'A Propos', component: AboutMeComponent },
   { path: 'Creations', component: CreationsComponent },
   { path: 'Creations/:title', component: GameFocusComponent },
   { path: 'CV', component: CvComponent },

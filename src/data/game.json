@@ -28,7 +28,7 @@
             "work": [
                 "Durant la création du jeu, je me suis principalement attelé au développement d’une énigme ainsi qu’à la programmation des déplacements et de l’utilisation de la tablette du personnage. L’énigme, modifiée par la suite, consistait à trouver un flacon d’acide pour faire fondre un cadenas donnant accès aux clefs de la prochaine porte.",
                 "J’ai aussi aidé le game designer à la mise en place du level design, des énigmes, ainsi qu’à la vérification de la cohérence des salles et du bon positionnement des énigmes.",
-                "A cause du confinement, étant incapable de récupérer le code du prjet, j’ai aidé le game designer à distance via partage d’écran."
+                "A cause du confinement, étant incapable de récupérer le code du projet, j’ai aidé le game designer à distance via partage d’écran."
             ],
             "return": [
                 "Ce projet a été très intéressant pour moi, avec la possibilité d’en apprendre plus sur le level design et sur les implications du game designer dans le jeu.",
@@ -110,17 +110,17 @@
             "context": [
                 "Les Ydays de l’école Ynov Campus Aix-en-Provence est une des matières obligatoires pour chaque cursus. Ils ont pour but de mener à bien la réalisation de projets créés par les étudiants ou par des professionnels extérieurs à l’école. Chaque commanditaire choisit son équipe parmi les étudiants de l’école.",
                 "Drag Queen Quest est un projet conçu par Stanislas GEFFROY. Il a réuni une équipe de 8 personnes pour créer le prototype de son jeu.",
-                "Le projet Drag Queen Quest est divisé en 2 parties : un plateformer en 2.5D (les personnages, les décors sont en 3D, mais le joueur ne peut qu’avancer ou reculer) ayant pour référence la série des bloodstained principalement, et des combats en tour par tour ayant pour référence la série des Final Fantasy et Persona."
+                "Le projet Drag Queen Quest est divisé en 2 parties : un side scroller en 3D ayant pour référence la série des 'Bloodstained' principalement, et des combats en tour par tour ayant pour référence la série des 'Final Fantasy' et 'Persona'."
             ],
             "work": [
-                "Je me suis concentré sur la partie plateforme de ce prototype. L’enjeu principal a été de mettre au point un système de déplacement et de saut qui convenait au commanditaire. Je me suis donc attelé a créer diverses solutions en me basant sur les outils disponibles sur Unity (Character Controller, RigidBody …) afin de lui présenter les diverses possibilités et les lui faire tester.",
-                "Une fois le mode de déplacement développé, il a fallu l’ajuster aux demandes pour que le niveau tutoriel puisse être réalisé. J’ai ensuite mis en place le modèle 3D du personnage et j’ai créé les textures à partir des fichiers donnés par les artistes.",
+                "Je me suis concentré sur la partie plateforme de ce prototype. L’enjeu principal a été de mettre au point un système de déplacement et de saut qui convenait au commanditaire. Je me suis donc attelé à créer diverses solutions en me basant sur les outils disponibles sur Unity (Character Controller, RigidBody …) afin de lui présenter les diverses possibilités et les lui faire tester.",
+                "Une fois le mode de déplacement développé, il a fallu l’ajuster aux demandes pour que le niveau tutoriel puisse être réalisé. J’ai ensuite mis en place le modèle 3D du personnage et j’ai créé les materials à partir des fichiers donnés par les artistes.",
                 "Le dernier challenge de ce prototype a été de concevoir un système de suivi de chemin. Stanislas voulait que le parcours du joueur ne soit pas une simple ligne droite mais qu’il puisse suivre des tracés complexes. J’ai donc mis au point un système de check-points, modifiant la direction du personnage et lui permettant de suivre des chemins non linéaires.",
                 "La dernière phase a été uniquement dédiée à la recherche. Ne pouvant continuer le développement du jeu avec l’équipe en raison du départ de certains membres, j’ai utilisé mon temps à mettre en place un document texte expliquant comment améliorer les systèmes mis en place, quelles pistes j’avais étudiées pour la suite du développement de la partie plateforme, ainsi que ce qui avait été réfléchi au niveau de la partie combat afin que le ou les prochains développeurs ne partent pas de zéro avec mon code."
             ],
             "return": [
-                "Des modifications au sein de l’équipe m’ont amené à récupérer le code d’autres programmeurs, et à le remanier afin que tout soit cohérent et plus simple à maintenir par la suite.",
-                "Il a fallu ensuite aussi pallier au manque de connaissances lors de l’intégration des textures. N’ayant jamais travaillé sur ce point, j’ai appris à créer des matériaux sur Unity applicables sur le modèle 3D."
+                "Des modifications au sein de l’équipe m’ont amené à récupérer le code d’autres programmeurs, et à le refactoriser afin que tout soit cohérent et plus simple à maintenir par la suite.",
+                "Il a fallu ensuite aussi pallier le manque de connaissances lors de l’intégration des textures. N’ayant jamais travaillé sur ce point, j’ai appris à créer des matériaux sur Unity applicables sur le modèle 3D."
             ],
             "download": {
                 "link": "assets/executable/DragQueenQuest.zip",

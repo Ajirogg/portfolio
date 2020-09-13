@@ -36,7 +36,7 @@
                 "Lors du projet nous avons travaillé en méthode agile (SCRUM), et nous étions autonome (les intervenants ne prenant part à aucune  décision, n’intervenant que si nous leur demandions de l’aide)."
             ],
             "download": {
-                "link": "51.178.47.49/AjiGames/TheExperiment.zip",
+                "link": "http://51.178.47.49/AjiGames/TheExperiment.zip",
                 "text": "TheExperiment.zip"
             },
             "git": {
@@ -123,7 +123,7 @@
                 "Il a fallu ensuite aussi pallier le manque de connaissances lors de l’intégration des textures. N’ayant jamais travaillé sur ce point, j’ai appris à créer des matériaux sur Unity applicables sur le modèle 3D."
             ],
             "download": {
-                "link": "51.178.47.49/AjiGames/DragQueenQuest.zip",
+                "link": "http://51.178.47.49/AjiGames/DragQueenQuest.zip",
                 "text": "DragQueenQuest.zip"
             },
             "git": {
@@ -200,7 +200,7 @@
                 "En définitive nous sommes fiers de notre réalisation même si elle n’est pas réellement exploitable en l’état."
             ],
             "download": {
-                "link": "assets/executable/HommeCareAgency.zip",
+                "link": "http://51.178.47.49/AjiGames/HommeCareAgency.zip",
                 "text": "HommeCareAgency.zip"
             },
             "git": {
@@ -290,7 +290,7 @@
                 "Le projet, comme souvent en game jam, a dû être revu un peu à la baisse (il y a moins de bombes que prévus et moins de visuels de terrain).  Mais le jeu est complet, compréhensible et jouable !"
             ],
             "download": {
-                "link": "assets/executable/Potion Braw.zip",
+                "link": "http://51.178.47.49/AjiGames/Potion Braw.zip",
                 "text": "Potion Brawl.zip"
             },
             "git": {
@@ -381,7 +381,7 @@
                 "Ce projet m’a appris à travailler en équipe au sein d’une équipe plus grande. Nous nous sommes réparti les tâches en fonctions de nos envies et de nos connaissances. Ce projet était trop ambitieux pour un premier gros projet mais a été très instructif sur la façon de gérer une équipe, sur le besoin de canaux de communication clairs et sur la répartition des tâches."
             ],
             "download": {
-                "link": "assets/executable/WTNY.zip",
+                "link": "http://51.178.47.49/AjiGames/WTNY.zip",
                 "text": "WTNY.zip"
             },
             "git": {
@@ -476,7 +476,7 @@
                 "Malgré cette fin compliquée, ce projet a été une expérience agréable car tous les participants étaient réunis dans une même salle, ce qui permettait des échanges entre les groupes, de l’entraide  entre des personnes très différentes. Nous avons pu discuter avec des étudiants de master, avec des professionnels d’Ubisoft, d’autres élèves de notre promotion et ainsi voir l’étendue de créativité et d’interprétation autour de thèmes généraux et assez simples."
             ],
             "download": {
-                "link": "assets/executable/HOTSTAGE.zip",
+                "link": "http://51.178.47.49/AjiGames/HOTSTAGE.zip",
                 "text": "Hot'Stage.zip"
             },
             "git": {
@@ -566,7 +566,7 @@
                 "Le jeu et le concept ont été très appréciés par le jury."
             ],
             "download": {
-                "link": "assets/executable/Waterlilly.zip",
+                "link": "http://51.178.47.49/AjiGames/Waterlilly.zip",
                 "text": "Waterlily.zip"
             },
             "git": {
@@ -648,7 +648,7 @@
                 "Il reste encore des problèmes de collisions, d’optimisation et de génération aléatoire dû à notre manque de connaissance du langage et du peu de temps que nous avons eu pour nous former dessus."
             ],
             "download": {
-                "link": "assets/executable/TAATOG.exe",
+                "link": "http://51.178.47.49/AjiGames/TAATOG.exe",
                 "text": "TAATOG.exe"
             },
             "git": {

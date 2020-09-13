@@ -1,15 +1,15 @@
-<div class="header pt-4 pb-4 text-center">
-  <h2 class="text-center">Guillaume RAIMUNDO</h2>
-</div>
+<header class="header">
+  <h2 class="pt-4 pb-4 text-center">Guillaume RAIMUNDO</h2>
 
-<div class="menu row text-center">
-
-  <div (click)="changeMainPage('Creations')" class="menu col-4 border-right" style="font-size: 1.5em">Creations</div>
-  <div (click)="changeMainPage('CV')" class="menu col-4 border-right" style="font-size: 1.5em">CV</div>
-  <div (click)="changeMainPage('A Propos')" class="menu col-4" style="font-size: 1.5em">A Propos</div>
-
-</div>
-
-<router-outlet></router-outlet>
+  <div class="menu text-center">
+    <div (click)="changeMainPage('Creations')" class="menuOnglet p-0 border-right"
+      style="display: inline-block; width: 33.5%; font-size: 1.5em">Creations</div>
+    <div (click)="changeMainPage('CV')" class="menuOnglet p-0 border-right"
+      style="display: inline-block; width: 33%; font-size: 1.5em">CV</div>
+    <div (click)="changeMainPage('A Propos')" class="menuOnglet p-0"
+      style="display: inline-block; width: 33.5%; font-size: 1.5em">A Propos
+    </div>
+  </div>
+</header>
 
 <router-outlet></router-outlet>

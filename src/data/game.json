@@ -36,7 +36,7 @@
                 "Lors du projet nous avons travaillé en méthode agile (SCRUM), et nous étions autonome (les intervenants ne prenant part à aucune  décision, n’intervenant que si nous leur demandions de l’aide)."
             ],
             "download": {
-                "link": "assets/executable/TheExperiment.zip",
+                "link": "51.178.47.49/AjiGames/TheExperiment.zip",
                 "text": "TheExperiment.zip"
             },
             "git": {
@@ -123,7 +123,7 @@
                 "Il a fallu ensuite aussi pallier le manque de connaissances lors de l’intégration des textures. N’ayant jamais travaillé sur ce point, j’ai appris à créer des matériaux sur Unity applicables sur le modèle 3D."
             ],
             "download": {
-                "link": "assets/executable/DragQueenQuest.zip",
+                "link": "51.178.47.49/AjiGames/DragQueenQuest.zip",
                 "text": "DragQueenQuest.zip"
             },
             "git": {

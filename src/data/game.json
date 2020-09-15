@@ -28,12 +28,12 @@
             "work": [
                 "Durant la création du jeu, je me suis principalement attelé au développement d’une énigme ainsi qu’à la programmation des déplacements et de l’utilisation de la tablette du personnage. L’énigme, modifiée par la suite, consistait à trouver un flacon d’acide pour faire fondre un cadenas donnant accès aux clefs de la prochaine porte.",
                 "J’ai aussi aidé le game designer à la mise en place du level design, des énigmes, ainsi qu’à la vérification de la cohérence des salles et du bon positionnement des énigmes.",
-                "A cause du confinement, étant incapable de récupérer le code du projet, j’ai aidé le game designer à distance via partage d’écran."
+                "A cause du confinement, étant dans l'impossibilité de récupérer le code du projet, j’ai aidé le game designer à distance via partage d’écran."
             ],
             "return": [
                 "Ce projet a été très intéressant pour moi, avec la possibilité d’en apprendre plus sur le level design et sur les implications du game designer dans le jeu.",
-                "J’ai aussi pu découvrir le travail d’équipe dans un groupe plus important (plus de 8 personnes). Ainsi que  l’importance de chef d’équipes dans de gros groupes de productions.",
-                "Lors du projet nous avons travaillé en méthode agile (SCRUM), et nous étions autonome (les intervenants ne prenant part à aucune  décision, n’intervenant que si nous leur demandions de l’aide)."
+                "J’ai aussi pu découvrir le travail d’équipe dans un groupe plus important (plus de 8 personnes). Ainsi que  l’importance de chefs d’équipes dans de gros groupes de productions.",
+                "Lors du projet nous avons travaillé en méthode agile (SCRUM), et nous étions autonomes (les intervenants ne prenant part à aucune  décision, n’intervenant que si nous leur demandions de l’aide)."
             ],
             "download": {
                 "link": "http://51.178.47.49/AjiGames/TheExperiment.zip",
@@ -108,7 +108,7 @@
                 "Princesse rebelle mais naïve, dieu lovecraftien destructeur et plus encore ! Telles seront les aventures qui feront évoluer nos reines dans un monde nouveau rempli de drames et surtout de fun !"
             ],
             "context": [
-                "Les Ydays de l’école Ynov Campus Aix-en-Provence est une des matières obligatoires pour chaque cursus. Ils ont pour but de mener à bien la réalisation de projets créés par les étudiants ou par des professionnels extérieurs à l’école. Chaque commanditaire choisit son équipe parmi les étudiants de l’école.",
+                "Les Ydays de l’école Ynov Campus Aix-en-Provence constituent l'une des matières obligatoires pour chaque cursus. Ils ont pour but de mener à bien la réalisation de projets créés par les étudiants ou par des professionnels extérieurs à l’école. Chaque commanditaire choisit son équipe parmi les étudiants de l’école.",
                 "Drag Queen Quest est un projet conçu par Stanislas GEFFROY. Il a réuni une équipe de 8 personnes pour créer le prototype de son jeu.",
                 "Le projet Drag Queen Quest est divisé en 2 parties : un side scroller en 3D ayant pour référence la série des 'Bloodstained' principalement, et des combats en tour par tour ayant pour référence la série des 'Final Fantasy' et 'Persona'."
             ],
@@ -195,8 +195,8 @@
                 "Je me suis aussi occupé de la mise en place des animations (du psy et des patients)."
             ],
             "return": [
-                "Lors de cette game jam nous avons pu nous rendre compte que notre vision du temps de développement a été assez juste, mais une mauvaise communication au sein de l’équipe a fait que le projet n’a pas abouti à 100%.",
-                "Nous nous sommes aussi rendu compte que nous n’avions pas assez réfléchi à la compréhension simple du jeu. Beaucoup d’éléments ne sont pas compréhensibles sans avoir eu une explication. Un joueur qui lance le jeu sans explication peut jouer (perdre ou gagner) sans  rien comprendre des implications et de l’effet de ses actions. Il aurait fallu prendre plus de temps sur l’introduction du jeu (comment jouer, quels interactions sont possibles etc) ou alors avec plus de temps/moyens, faire un niveau tutoriel extrêmement basique.",
+                "Lors de cette game jam nous avons pu constater que notre vision du temps de développement a été assez juste, mais une mauvaise communication au sein de l’équipe a fait que le projet n’a pas abouti à 100%.",
+                "Nous nous sommes aussi rendus compte que nous n’avions pas assez réfléchi à la compréhension simple du jeu. Beaucoup d’éléments ne sont pas compréhensibles sans avoir eu une explication. Un joueur qui lance le jeu sans explication peut jouer (perdre ou gagner) sans  rien comprendre des implications et de l’effet de ses actions. Il aurait fallu prendre plus de temps sur l’introduction du jeu (comment jouer, quels interactions sont possibles etc) ou alors avec plus de temps/moyens, faire un niveau tutoriel extrêmement basique.",
                 "En définitive nous sommes fiers de notre réalisation même si elle n’est pas réellement exploitable en l’état."
             ],
             "download": {
@@ -258,11 +258,11 @@
                 {
                     "ecole": "Ynov campus Aix-en-Provence",
                     "membres": [
-                        "Émélie Philippe",
-                        "Morganne Michot",
-                        "Thomas Audibert",
-                        "Johann Natouri",
-                        "Mathis Abdou",
+                        "Émélie PHILIPPE",
+                        "Morganne MICHOT",
+                        "Thomas AUDIBERT",
+                        "Johann NATOURI",
+                        "Mathis ABDOU",
                         "Guillaume RAIMUNDO"
                     ]
                 }
@@ -276,7 +276,7 @@
             ],
             "context": [
                 "Potion Brawl est un jeu créé dans le cadre d’une game jam de 20 heures, organisée lors  du cursus scolaire de l’école Ynov campus Aix-en-Provence avec une équipe imposée.",
-                "Potion Brawl est un jeu créé à partir de 2 pitchs, choisis parmi une liste, qui sont : ",
+                "Potion Brawl a été conçu à partir de 2 pitchs, choisis parmi une liste, qui sont : ",
                 "   - A l'aide de votre personnage, des éléments disposés dans le niveau et/ou à vos compétences, éjectez votre adversaire de l'arène.",
                 "   - Une bombe est sur le point d'exploser, donnez-la à votre adversaire avant la fin du compte à rebours.",
                 "Cet exercice a mélangé des étudiants de Master 1 et 2 et a été réalisé sur Unity."
@@ -287,7 +287,7 @@
             ],
             "return": [
                 "Ce travail a été très plaisant à faire, l’équipe communiquait bien et le développement c’est en somme bien déroulé.",
-                "Le projet, comme souvent en game jam, a dû être revu un peu à la baisse (il y a moins de bombes que prévus et moins de visuels de terrain).  Mais le jeu est complet, compréhensible et jouable !"
+                "Le projet, comme souvent en game jam, a dû être revu un peu à la baisse (il y a moins de bombes que prévu et moins de visuels de terrain).  Mais le jeu est complet, compréhensible et jouable !"
             ],
             "download": {
                 "link": "http://51.178.47.49/AjiGames/Potion Brawl.zip",
@@ -376,9 +376,9 @@
                 "Une fois le réseau mis en place il a fallu adapter tout notre code pour qu’il soit répliqué chez chaque joueur."
             ],
             "return": [
-                "Ce projet a été assez laborieux car nous débutions en jeu en réseau ainsi qu’en IA. Et une de nos grosses erreurs a été de ne pas avoir mis plusieurs personnes sur le réseau et sur l’IA (une seule personne pour chaque). Ce qui a rendu complexe la résolution de bugs sur la fin du projet durant le rush de fin, surtout en réseau, où seule la personne qui l’a développé savait vraiment comment cela fonctionnait et comment nous pouvions la réparer.",
-                "Le manque de temps nous as obligé à revoir à la baisse le nombre de personnages qui est passé de 8 à 3.",
-                "Ce projet m’a appris à travailler en équipe au sein d’une équipe plus grande. Nous nous sommes réparti les tâches en fonctions de nos envies et de nos connaissances. Ce projet était trop ambitieux pour un premier gros projet mais a été très instructif sur la façon de gérer une équipe, sur le besoin de canaux de communication clairs et sur la répartition des tâches."
+                "Ce projet a été assez laborieux car nous débutions en jeu en réseau ainsi qu’en IA. Et une de nos grosses erreurs a été de ne pas avoir mis plusieurs personnes sur le réseau et sur l’IA (une seule personne pour chaque). Ce qui a rendu complexe la résolution de bugs sur la fin du projet durant le rush de fin, surtout en réseau, où seule la personne qui l’a développé savait vraiment comment cela fonctionnait et comment nous pouvions le réparer.",
+                "Le manque de temps nous a obligé à revoir à la baisse le nombre de personnages qui est passé de 8 à 3.",
+                "Ce projet m’a appris à travailler au sein d’une équipe plus grande. Nous nous sommes réparti les tâches en fonctions de nos envies et de nos connaissances. Ce projet était trop ambitieux pour un premier gros projet mais a été très instructif sur la façon de gérer une équipe, sur le besoin de canaux de communication clairs et sur la répartition des tâches."
             ],
             "download": {
                 "link": "http://51.178.47.49/AjiGames/WTNY.zip",
@@ -471,9 +471,9 @@
                 "J’ai rédigé une partie des « questions réponses » des dialogues possibles lors des appels de la police ou des conversations avec les otages."
             ],
             "return": [
-                "Avant tout je tiens à remercier le graphiste Mark Orzechowski pour avoir accepté de nous laisser utiliser son travail en tant que fond d'écran de menu.",
+                "Avant tout je tiens à remercier le graphiste Mark Orzechowski pour avoir accepté de nous laisser utiliser son travail comme fond d'écran de menu.",
                 "Des changements de dernière minute ont provoqué un rush et la perte de certains feedbacks, mais il a quand même été possible de rendre un jeu jouable et agréable.",
-                "Malgré cette fin compliquée, ce projet a été une expérience agréable car tous les participants étaient réunis dans une même salle, ce qui permettait des échanges entre les groupes, de l’entraide  entre des personnes très différentes. Nous avons pu discuter avec des étudiants de master, avec des professionnels d’Ubisoft, d’autres élèves de notre promotion et ainsi voir l’étendue de créativité et d’interprétation autour de thèmes généraux et assez simples."
+                "Malgré cette fin compliquée, ce projet a été une expérience plaisante car tous les participants étaient réunis dans une même salle, ce qui permettait des échanges entre les groupes, de l’entraide  entre des personnes très différentes. Nous avons pu discuter avec des étudiants de master, avec des professionnels d’Ubisoft, d’autres élèves de notre promotion et ainsi voir l’étendue de créativité et d’interprétation autour de thèmes généraux et assez simples."
             ],
             "download": {
                 "link": "http://51.178.47.49/AjiGames/HOTSTAGE.zip",
@@ -556,7 +556,7 @@
             "context": [
                 "Waterlily est un prototype de jeu sérieux, développé à l’UQAC. C’est le projet de fin du premier semestre. Le thème du jeu sérieux était imposé. Nous avons décidé de partir sur la sensibilisation des enfants et adolescents au gaspillage de l'eau.",
                 "Le jeu devait se dérouler en X niveaux de difficulté grandissante et adaptative. Le joueur doit arriver à économiser un maximum d’eau afin d’avoir plus de ressources au niveau suivant et de ralentir l’augmentation de la température, qui rendrait plus difficile la sauvegarde de l’eau.",
-                "Ce projet est une collaboration entre les élèves du NAD et de l’UQAC, développé avec Unreal."
+                "Ce projet est une collaboration entre les élèves du NAD (centre National d'Animation et de Design) et de l’UQAC (Université du Québec A Chicoutimi), développé avec Unreal."
             ],
             "work": [
                 "Durant ce projet, je me suis occupé avec Killian BRACHER du contrôle du personnage ainsi que de la physique qui y était liée. Nous avons également travaillé sur les interactions avec le décor  et les objets présents dans le niveau (l’absorption des gouttes d’eau, ainsi que des surfaces absorbantes à éviter)."
@@ -619,11 +619,11 @@
                 {
                     "ecole": "Equipe 'U'",
                     "membres": [
-                        "Jarno Baeijs",
-                        "Thibaut De Nicolas",
-                        "Hydriss Ruet",
-                        "Emile Calixte",
-                        "Guillaume Raimundo"
+                        "Jarno BAEJIS",
+                        "Thibaut DE NICOLAS",
+                        "Hydriss RUET",
+                        "Emile CALIXTE",
+                        "Guillaume RAIMUNDO"
                     ]
                 }
             ],
@@ -645,7 +645,7 @@
             ],
             "return": [
                 "Cette game jam a été ma première expérience dans le développement d’un jeu complet. Elle a été très agréable et le résultat obtenu est conforme à ce que l’on avait prévu.",
-                "Il reste encore des problèmes de collisions, d’optimisation et de génération aléatoire dû à notre manque de connaissance du langage et du peu de temps que nous avons eu pour nous former dessus."
+                "Il reste encore des problèmes de collisions, d’optimisation et de génération aléatoire dûs à notre manque de connaissances du langage et du peu de temps que nous avons eu pour nous former dessus."
             ],
             "download": {
                 "link": "http://51.178.47.49/AjiGames/TAATOG.exe",
@@ -719,12 +719,12 @@
                 "Guide Kini à travers des salles remplies de mécanismes, trappes et autres dangers et deviens le roi de l'Escape-Colle !"
             ],
             "context": [
-                "Avant tout chose, le site est disponible parmi les liens. Il est hébergé gratuitement par un membre de l’équipe, c’est pourquoi nous vous demandons de ne pas créer de compte (l’espace qui nous est alloué est assez restreint). Les identifiants du compte de test sont disponible sur la page de connexion du site.",
+                "Avant tout, le site est disponible parmi les liens. Il est hébergé gratuitement par un membre de l’équipe, c’est pourquoi nous vous demandons de ne pas créer de compte (l’espace qui nous est alloué est assez restreint). Les identifiants du compte de test sont disponibles sur la page de connexion du site.",
                 "Kinimi est une plateforme web créée en 3 mois lors de notre 2e année de DUT informatique. Le but était de créer une plateforme ludo-éducative pour permettre aux élèves de 3e de réviser les mathématiques et l’informatique.",
-                "Le site se découpe en deux parties : une partie pour les mathématiques, qui regroupe soit des histoires interactives intégrant des exercices, soit directement des exercices, et une partie pour l’informatique qui se compose d’une série de niveaux où le joueur va devoir sortir de la pièce où il se trouve en codant les déplacements de son personnage avec du code scratch."
+                "Le site se découpe en deux parties : une partie pour les mathématiques, qui regroupe soit des histoires interactives intégrant des exercices, soit directement des exercices, et une partie pour l’informatique qui se compose d’une série de niveaux dans lesquels le joueur va devoir sortir de la pièce où il se trouve en codant les déplacements de son personnage avec du code scratch."
             ],
             "work": [
-                "Lors de ce projet, je me suis occupé de la partie graphique du site de la bannière, du design du personnage, des décors du jeu Escape Colle, ainsi que des croquis qui devaient apparaitre au fil des histoires de mathématique, mais qui n’ont pu être intégrés, faute de temps.",
+                "Lors de ce projet, je me suis occupé de la partie graphique du site de la bannière, du design du personnage, des décors du jeu Escape Colle, ainsi que des croquis qui devaient apparaitre au fil des histoires de mathématiques, mais qui n’ont pu être intégrés, faute de temps.",
                 "J’ai conçu le level design des 4 niveaux d’Escape Colle."
             ],
             "return": [

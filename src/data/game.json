@@ -554,9 +554,9 @@
                 "Vous incarnez une goutte d'eau qui doit rejoindre une plante pour l'abreuver. Dans cet unique niveau vous devez vous déplacez jusqu'à elle en évitant les différents pièges (saleté, papier absorbant etc...) en essayant d'amasser le plus de gouttes possible."
             ],
             "context": [
-                "Waterlily est un prototype de jeu sérieux, développé à l’UQAC. C’est le projet de fin du premier semestre. Le thème du jeu sérieux était imposé. Nous avons décidé de partir sur la sensibilisation des enfants et adolescents au gaspillage de l'eau.",
+                "Waterlily est un prototype de jeu sérieux, développé à l’UQAC (Université du Québec A Chicoutimi). C’est le projet de fin du premier semestre. Le thème du jeu sérieux était imposé. Nous avons décidé de partir sur la sensibilisation des enfants et adolescents au gaspillage de l'eau.",
                 "Le jeu devait se dérouler en X niveaux de difficulté grandissante et adaptative. Le joueur doit arriver à économiser un maximum d’eau afin d’avoir plus de ressources au niveau suivant et de ralentir l’augmentation de la température, qui rendrait plus difficile la sauvegarde de l’eau.",
-                "Ce projet est une collaboration entre les élèves du NAD (centre National d'Animation et de Design) et de l’UQAC (Université du Québec A Chicoutimi), développé avec Unreal."
+                "Ce projet est une collaboration entre les élèves du NAD (centre National d'Animation et de Design) et de l’UQAC, développé avec Unreal."
             ],
             "work": [
                 "Durant ce projet, je me suis occupé avec Killian BRACHER du contrôle du personnage ainsi que de la physique qui y était liée. Nous avons également travaillé sur les interactions avec le décor  et les objets présents dans le niveau (l’absorption des gouttes d’eau, ainsi que des surfaces absorbantes à éviter)."

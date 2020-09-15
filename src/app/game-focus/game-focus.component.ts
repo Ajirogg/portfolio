@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { GameInfo } from 'src/Model/GameInfo';
 
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 import creationsData from "src/data/game.json";
 
@@ -13,14 +14,21 @@ import creationsData from "src/data/game.json";
 export class GameFocusComponent implements OnInit {
 
   game: GameInfo;
-  constructor(private route: ActivatedRoute) { }
+  constructor(private activatedRoute: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
+    let find = false;
+
     for (const game of creationsData.games) {
-      if(game.title === this.route.params['value'].title){
+      if(game.title === this.activatedRoute.params['value'].title){
         this.game = game;
+        find = true;
         break;
       }
+    }
+
+    if(!find){
+      this.router.navigate(['/Creations']);
     }
   }
 }

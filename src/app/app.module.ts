@@ -19,6 +19,8 @@ const appRoutes: Routes = [
   { path: 'Creations', component: CreationsComponent },
   { path: 'Creations/:title', component: GameFocusComponent },
   { path: 'CV', component: CvComponent },
+  { path: '**', redirectTo: 'A Propos' },
+
 ];
 
 @NgModule({

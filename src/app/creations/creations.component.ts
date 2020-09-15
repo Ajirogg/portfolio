@@ -30,7 +30,7 @@ export class CreationsComponent implements OnInit {
   }
 
   loadPage(game: GameInfo): void {
-    localStorage.setItem('game', JSON.stringify(game));
+    // localStorage.setItem('game', JSON.stringify(game));
     this.router.navigate(['/Creations', game.title]);
   }
 }  

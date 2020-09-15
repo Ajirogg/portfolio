@@ -1,12 +1,24 @@
-.menuOnglet:hover{
-    background-color: #C1Cad6;
+.menuOnglet{
+    font-size: 1.5em;
+    display: inline-block; 
+}
+     
+.creation:hover{
+    background-image: url("/assets/Images/anim_creation.gif");
+    color: black;
+    cursor: pointer;
+}   
+
+.CV:hover{
+    background-image: url("/assets/Images/CV.gif");
     color: black;
     cursor: pointer;
 }
 
-.menuOnglet{
-    font-size: 1.5em;
-    display: inline-block; 
+.about:hover{
+    background-image: url("/assets/Images/anim-perso.gif");
+    color: black;
+    cursor: pointer;
 }
 
 .menu {

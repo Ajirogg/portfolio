@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { GameInfo } from 'src/Model/GameInfo';
 
+import { ActivatedRoute } from '@angular/router';
+
+import creationsData from "src/data/game.json";
+
 @Component({
   selector: 'app-game-focus',
   templateUrl: './game-focus.component.html',
@@ -9,10 +13,17 @@ import { GameInfo } from 'src/Model/GameInfo';
 export class GameFocusComponent implements OnInit {
 
   game: GameInfo;
+  constructor(private route: ActivatedRoute) { }
 
-  constructor() { }
+  ngOnInit() {
 
-  ngOnInit(): void {
-    this.game = JSON.parse(localStorage.getItem("game"));
+    console.log(creationsData.games);
+
+    for (const game of creationsData.games) {
+      if(game.title === this.route.params.value.title){
+        this.game = game;
+        break;
+      }
+    }
   }
 }

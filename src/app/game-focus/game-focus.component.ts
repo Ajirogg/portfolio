@@ -16,11 +16,8 @@ export class GameFocusComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-
-    console.log(creationsData.games);
-
     for (const game of creationsData.games) {
-      if(game.title === this.route.params.value.title){
+      if(game.title === this.route.params['value'].title){
         this.game = game;
         break;
       }

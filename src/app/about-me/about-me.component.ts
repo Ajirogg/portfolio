@@ -18,7 +18,6 @@ export class AboutMeComponent implements OnInit {
 
   ngOnInit(): void {
     this.findAboutInfo();
-    console.log(this.text);
   }
 
   findAboutInfo(): void {

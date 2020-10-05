@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'PortfolioWeb';
+  exeDispo : boolean = false;
 
   constructor(private router: Router) { }
 

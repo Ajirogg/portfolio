@@ -76,30 +76,31 @@
                     <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
                 </div>
             </div>
+        </div>
 
-            <div #Contexte *ngIf="game.context.length" class="p-2">
-                <h4 style="text-decoration: underline;">Contexte :</h4>
+        <div #Contexte *ngIf="game.context.length" class="p-2">
+            <h4 style="text-decoration: underline;">Contexte :</h4>
 
-                <div *ngFor="let sentence of game.context">
-                    <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
-                </div>
-            </div>
-
-            <div #Done *ngIf="game.work.length" class="p-2">
-                <h4 style="text-decoration: underline;">Mon travail :</h4>
-
-                <div *ngFor="let sentence of game.work">
-                    <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
-                </div>
-            </div>
-
-            <div #Return *ngIf="game.return.length" class="p-2">
-                <h4 style="text-decoration: underline;">Retour :</h4>
-
-                <div *ngFor="let sentence of game.return">
-                    <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
-                </div>
+            <div *ngFor="let sentence of game.context">
+                <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
             </div>
         </div>
+
+        <div #Done *ngIf="game.work.length" class="p-2">
+            <h4 style="text-decoration: underline;">Mon travail :</h4>
+
+            <div *ngFor="let sentence of game.work">
+                <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
+            </div>
+        </div>
+
+        <div #Return *ngIf="game.return.length" class="p-2">
+            <h4 style="text-decoration: underline;">Retour :</h4>
+
+            <div *ngFor="let sentence of game.return">
+                <p class="pb-1"> <span class="pl-3"> {{ sentence }}</span> </p>
+            </div>
+        </div>
+        
 
     </div>

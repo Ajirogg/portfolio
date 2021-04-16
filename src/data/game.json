@@ -1,6 +1,423 @@
 {
     "games": [
         {
+            "order": 14,
+            "title": "Oïra Amata",
+            "type": "Contemplatif, VR, Puzzle",
+            "date": "2021",
+            "team": [
+                {
+                    "ecole": "Promotion Ynov 2019",
+                    "membres": [
+                        "Axel LABARRERE",
+                        "Brittany LEDDA",
+                        "Priscilla GOY",
+                        "Claude COHEN",
+                        "Florent GALVIN",
+                        "Loïc DISARBOIS",
+                        "Guillaume RAIMUNDO"
+                    ]
+                }
+            ],
+            "shortDesc": {
+                "style": "Oïra Amata est un jeu contemplatif en réalité virtuelle.",
+                "team": "Créé en 1 an par une équipe de 6 étudiants."
+            },
+            "pitch": [
+                "Vous vous réveillez sur une île avec pour unique compagnie un oiseau. Vous allez explorer d’anciennes ruines et résoudre des énigmes, à la recherche d’un objectif."
+            ],
+            "context": [
+                "Oïra Amata est notre projet de fin d’études du master Jeux Vidéo d’Ynov. Il a été réalisé sur Unreal en un an, et est toujours en cours de développement.",
+                "C’est un jeu en réalité virtuelle créé sur Unreal Engine 4 où l’on incarne un personnage qui va devoir explorer l’île sur laquelle il se réveille, accompagné d’un étrange oiseau. Le jeu est axé autour de la découverte de l’île et la résolution d’énigme afin, d’avancer dans l’exploration.",
+                "Le code a été réalisé en blueprints, Unreal ne disposant pas, lors du début de notre développement, de projet VR en C++.",
+                "L’équipe est composée de 4 artistes, 2 développeurs et 1 game designer."
+            ],
+            "work": [
+                "Pour ce projet, j’ai rapidement pris en main la gestion du travail de programmation. J’ai ainsi priorisé les tâches en fonctions de leur importance par rapport aux deadlines.",
+                "Au niveau développement, je me suis principalement occupé de la gestion des mécaniques entourant l’oiseau (lui permettre de se déplacer de zone en zone en fonction des déplacements du joueur, ainsi que de la mise au point de ces chemins en soutien au game designer).",
+                "Je me suis aussi occupé de l’intégration d’une partie des assets 3D, ainsi que d’aide à la réalisation des VFX (discussion avec l’artiste s’en occupant, permettant l’apport d’un regard différent) et leur intégration. J’ai également aidé le game designer dans la recherche et la modification de bruitages et de musiques en vue de leur intégration.",
+                "J’ai également effectué la mise en place d’interactions (boutons, leviers, lianes) qui pour la plupart ne sont pas présentes dans le projet suite à une réduction du nombre d’énigmes."
+            ],
+            "return": [
+                "Durant ce projet, j’ai pu comprendre les différentes contraintes qu’apporte la création d’un jeu en réalité virtuelle, autant du point de vue du game design que de celui de la programmation.",
+                "Lors de ce projet nous étions complètement autonomes, les intervenants n’étant là que pour vérifier l’avancement et nous aider si nous le demandions.",
+                "Le projet n’étant pas encore fini, cette section sera complétée une fois le jeu présenté au jury final (prévue en septembre 2021)."
+            ],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": {
+                "icon": "assets/Images/Azure.png",
+                "url": "https://dev.azure.com/OiraAmataVR/OiraAmata",
+                "text": "Page Azure Devops"
+            },
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "imgCard": {
+                    "src": "assets/Images/OiraAmata/LogTmp.png",
+                    "alt": "Couverture Oïra Amata"
+                },
+                "list": [
+                    {
+                        "src": "assets/Images/OiraAmata/LogTmp.png",
+                        "miniature": "assets/Images/OiraAmata/LogTmp-miniature.png",
+                        "alt": "Couverture Oïra Amata"
+                    },
+                    {
+                        "src": "assets/Images/OiraAmata/Screen1.png",
+                        "miniature": "assets/Images/OiraAmata/Screen1-miniature.png",
+                        "alt": "Plage"
+                    },
+                    {
+                        "src": "assets/Images/OiraAmata/Screen2.png",
+                        "miniature": "assets/Images/OiraAmata/Screen2-miniature.png",
+                        "alt": "Temple"
+                    },
+                    {
+                        "src": "assets/Images/OiraAmata/Screen3.png",
+                        "miniature": "assets/Images/OiraAmata/Screen3-miniature.png",
+                        "alt": "Pont"
+                    },
+                    {
+                        "src": "assets/Images/OiraAmata/Screen4.png",
+                        "miniature": "assets/Images/OiraAmata/Screen4-miniature.png",
+                        "alt": "Oiseau"
+                    }
+                ]
+            }
+        },{
+            "order": 13,
+            "title": "Tang & Arlee",
+            "type": "Platformer, Exploration",
+            "date": "2021",
+            "team": [
+                {
+                    "ecole": "Studio 42",
+                    "membres": [
+                        "Aurélie​ BELOT",
+                        "Anthony​ DI FURIA",
+                        "Kevin​ DUBREUCQ",
+                        "Marie​​ DURAN",
+                        "Coline​​ EMANUEL",
+                        "Quentin​ CAMENSULI",
+                        "Guillaume​​ FERRUCCI",
+                        "Alexandre​​ HOARAU",
+                        "Théo​​ MAALEM",
+                        "Morgane​ MICHOT",
+                        "Lisa​​ PONDAVEN",
+                        "Guillaume​ RAIMUNDO"
+                    ]
+                }
+            ],
+            "shortDesc": {
+                "style": "Tang & Arlee est un plateformeur 3D.",
+                "team": "Remanié en 1 an par une équipe de 12 étudiants."
+            },
+            "pitch": [
+                
+            ],
+            "context": [
+                "Les Ydays de l’école Ynov Campus Aix-en-Provence constituent l'une des matières obligatoires pour chaque cursus. Ils ont pour but de mener à bien la réalisation de projets créés par les étudiants ou par des professionnels extérieurs à l’école. Chaque commanditaire choisit son équipe parmi les étudiants de l’école. Les séances sont malheureusement très espacées (un jour toutes les deux semaines environ)",
+                "Tang & Arlee est un projet imaginé par Thomas GUILBERT. Il a été commencé sur Unity pendant 6 semaines lors d’un stage, puis repris durant l’année scolaire 2020/2021 avec une partie de l’équipe originelle, ainsi que de nouveaux membres dont je fais partie.",
+                "L’équipe est constituée de 12 étudiants (2 développeurs et 10 artistes)."
+            ],
+            "work": [
+                "Sur le remaniement de Tang & Arlee, la première étape a été de tester l’existant, et de faire toute une passe de lecture du code déjà présent. Ce dernier ayant été produit par une personne débutant dans le développement de jeux vidéo, il a été décidé de le reprendre entièrement.",
+                "J’ai occupé le poste de lead développeur sur ce projet, et j’ai donc du commencé par la mise en place de la partie programmation de notre Hack ‘n Plan, un outil de gestion de projet, afin de mettre à plat les différentes tâches, et pouvoir en suivre facilement l’évolution.",
+                "Une partie de mon travail a été de former les artistes à l’utilisation de Git afin de faciliter l’intégration des assets. Ainsi qu’à la mise en place d’une hiérarchie commune du projet pour permettre de s’y retrouver facilement.",
+                "Au niveau de la programmation je me suis principalement occupé des tests et de la mise en place des déplacements du personnage."                
+            ],
+            "return": [
+                "Ce projet a été très enrichissant, car j’ai appris à mieux communiquer sur mon travail auprès des artistes notamment. J’ai aussi dû mettre en place de rapides cours sur l’utilisation du logiciel Github Desktop pour que les artistes puissent intégrer leurs créations. Je les ai également formés à la réalisation de materials en fonction des textures qu’ils importaient. J’ai aidé le deuxième développeur dans l’apprentissage de la logique du développement de jeux vidéo, car il n’en avait que très peu fait.",
+                "J’ai développé des compétences pour pouvoir supervisés l’avancement du développement en équipes relativement petite au contact du chef de projet  ainsi que par mon expérience personnelle au sein de l’équipe."
+                
+            ],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/Ajirogg/Tang_Arlee",
+                "text": "Page GitHub"
+            },
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "imgCard": {
+                    "src": "assets/Images/Tang&Arlee/Logo.png",
+                    "alt": "Logo Tang & Arlee"
+                },
+                "list": [
+                ]
+            }
+        },{
+            "order": 12,
+            "title": "Coffitch",
+            "type": "Puzzle",
+            "date": "2021",
+            "team": [
+                {
+                    "ecole": "Ynov Jam 2021",
+                    "membres": [
+                        "Quentin BESMAINE",
+                        "Guillaume RESTOUL",
+                        "Alexandra FINA",
+                        "Guillaume RAIMUNDO",
+                        "Sarah JAILLE"
+                    ]
+                }
+            ],
+            "shortDesc": {
+                "style": "Coffitch est un puzzle game.",
+                "team": "Développé en 47h par une équipe de 5 étudiants."
+            },
+            "pitch": [
+                "Vous incarnez Sandrine, fameuse barmaid du Shotcière, et servez vos clients à la perfection afin d’obtenir la meilleure des réputations dans cette version d’Overcooked sans échec."
+            ],
+            "context": [
+                "Coffitch a été créé en 47h sur Unreal par une équipe de 5 étudiants (2 artistes, 2 développeurs et 1 game designer) sur le thème \"It never ends\" durant une game jam organisé par une start-up de l’école Ynov.",
+                "Nous avons choisi de faire un jeu sans game over, où le joueur devra trouver son rythme afin de satisfaire le plus de clients possible."
+                
+            ],
+            "work": [
+                "J‘ai occupé le poste de chef de projet ainsi que de programmeur durant la création de ce jeu.",
+                "Le game designer étant absent la majorité du temps, j’ai aidé le deuxième développeur à concevoir le level design, que j’ai par la suite intégré dans le jeu. Nous avons aussi effectué une passe d’équilibrage en fonction des tests que nous avons réalisés.",
+                "Au niveau programmation, j’ai développé toute la partie contrôleur : les déplacements, la récupération et l’utilisation des objets et des « machines » interactives. Je me suis aussi occupé de la vérification des commandes ainsi que de l’intégration des assets fournis par les artistes. J’ai récupéré les bruitages et sons d’ambiance nécessaires."
+                
+            ],
+            "return": [
+                "Coffitch a été ma première réalisation en tant que chef de projet. J’ai pu mettre à profit mes différentes expériences passées afin d’essayer de mener le projet au plus proche de ce que l’on avait prévu. Ce fut une expérience très agréable car les participants ont été dynamiques et impliqués dans le processus de création.",
+                "Grâce à cette expérience, j’ai réalisé la difficulté d’anticiper l’avancement d’un projet, et de déterminer la charge de travail de chacun pour pouvoir finir à temps, même si le contexte d’une game jam est assez différent de celui d’une création sur le long terme. "
+                
+            ],
+            "download": {
+                "link": "https://github.com/Ajirogg/YnovJam2021/releases/download/1.0.0/Coffitch.zip",
+                "text": "Coffitch.zip"
+            },
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/Ajirogg/YnovJam2021",
+                "text": "Page GitHub"
+            },
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "imgCard": {
+                    "src": "assets/Images/Coffitch/Cover.png",
+                    "alt": "Coffitch logo"
+                },
+                "list": [
+                    {
+                        "src": "assets/Images/Coffitch/Cover.png",
+                        "miniature": "assets/Images/Coffitch/Cover_miniature.png",
+                        "alt": "Coffitch logo"
+                    },
+                    {
+                        "src": "assets/Images/Coffitch/Screen1.png",
+                        "miniature": "assets/Images/Coffitch/Screen1_miniature.png",
+                        "alt": "Start game"
+                    },
+                    {
+                        "src": "assets/Images/Coffitch/Screen2.png",
+                        "miniature": "assets/Images/Coffitch/Screen2_miniature.png",
+                        "alt": "Game with clients"
+                    }
+                ]
+            }
+        },{
+            "order": 11,
+            "title": "S.K.U.L.L.: Battle Royale",
+            "type": "Battle Royale",
+            "date": "2021",
+            "team": [
+                {
+                    "ecole": "Global Fame Jam site YNOV GGJ 2021",
+                    "membres": [
+                        "Guillaume FERRUCCI",
+                        "Kilian POUILLE",
+                        "Nicolas GROSSO",
+                        "Sylvain TORNAMBE",
+                        "Julien MOURELON",
+                        "Benjamin MOREAU",
+                        "Mathis ABDOU",
+                        "Alan MONNIER",
+                        "Olivier SANTUCCI",
+                        "Guillaume RAIMUNDO"
+                    ]
+                }
+            ],
+            "shortDesc": {
+                "style": "S.K.U.L.L. est un battle royale",
+                "team": "Développé en 48h lors de la Globale Game Jam 2021 par une équipe de 10 étudiants."
+            },
+            "pitch": [
+                "Malheureusement, elle vient de perdre sa couronne ! Elle promet une place dans la garde royale à quiconque parvient à la ramener. Armez-vous, car tous les soldats commencent en même temps. Devenez l'élu !"
+            ],
+            "context": [
+               "S.K.U.L.L. a été développé sur Unity en 48 heures par une équipe de 10 étudiants (4 programmeurs et 6 artistes) durant la Global Game Jam 2021."
+             
+            ],
+            "work": [
+               "Durant cette game jam, je me suis occupé de la gestion du personnage, ses déplacements ainsi que son attaque.",
+               "J’ai fait l’intégration des assets des artistes. J’ai ensuite créé un level design dans lequel cacher la couronne et devant accueillir jusqu’à 64 personne. Ensuite je l’ai intégré et habillé avec l’aide de deux autres développeurs."
+               
+                
+            ],
+            "return": [
+                "S.K.U.L.L. a été un projet très ambitieux, car nous nous sommes lancé dans la création d’un jeu en réseau, avec pour but d’accueillir un grand nombre de joueurs, jusqu’à 64. La réussite de ce dernier a été très gratifiante.",
+                "Durant cette game jam j’ai appris les bases du processus de création d’un level design, ainsi que de la création de décors, afin de donner vie à ce dernier. ",
+                "J’ai aussi passé beaucoup de temps à faire le lien avec  les artistes. J’ai rapidement pris en charge la gestion des priorités au niveau de leur créations afin d’avoir le rendu le plus complet possible. "
+                
+            ],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": {
+                "icon": "assets/Images/gitlab.png",
+                "url": "https://gitlab.com/Mat13109/ggj2021",
+                "text": "Page GitLab"
+            },
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "https://mat-mox.itch.io/skull-battle-royale",
+            "img": {
+                "imgCard": {
+                    "src": "assets/Images/Skull/SKullLogo.png",
+                    "alt": "S.K.U.L.L. Logo"
+                },
+                "list": [ 
+                {
+                    "src": "assets/Images/Skull/SKullLogo_1920_1080.png",
+                    "miniature": "assets/Images/Skull/SKullLogo_1920_1080-miniature.png",
+                    "alt": "S.K.U.L.L. logo"
+                },
+                {
+                    "src": "assets/Images/Skull/Screen1.png",
+                    "miniature": "assets/Images/Skull/Screen1-miniature.png",
+                    "alt": "Screen with crown"
+                },
+                {
+                    "src": "assets/Images/Skull/Screen2.png",
+                    "miniature": "assets/Images/Skull/Screen2-miniature.png",
+                    "alt": "In game screen lobby"
+                }
+                ]
+            }
+        },{
+            "order": 10,
+            "title": "Perfect Space",
+            "type": "Clicker",
+            "date": "2020",
+            "team": [
+                {
+                    "ecole": "Promotion 2019 et 2020 d'Ynov",
+                    "membres": [
+                        "Axel LABARRERE",
+                        "Brittany LEDDA",
+                        "Priscilla GOY",
+                        "Elsa MORETA",
+                        "Claude COHEN",
+                        "Florent GALVIN",
+                        "Sarah JAILLE",
+                        "Paul ROUMIGUIÈRE",
+                        "Loïc DISARBOIS",
+                        "Guillaume RAIMUNDO"
+                    ]
+                }
+            ],
+            "shortDesc": {
+                "style": "Perfect Space est jeu de type clicker.",
+                "team": "Développé en 48h par une équipe de 10 étudiants."
+            },
+            "pitch": [
+                
+            ],
+            "context": [
+                "Perfect space est un jeu de scoring créé en 48h avec GameMaker 2 lors d'une jam organisée par l'université Ynov d'Aix-en-Provence, suivant les thèmes :",
+                "- Reproduire une mécanique existante",
+                "- Flat-design",
+                "- Deux couleurs",
+                "Nous avons décidé de reproduire la mécanique du jeu mobile \"Space Frontier\"."
+            ],
+            "work": [
+                "Lors de cette jam, je me suis occupé de gérer le déplacement du vaisseau entre les planètes, du nombre de déplacements que le vaisseau réalise en fonction du niveau de réussite, ainsi que du score gagné en conséquence.",
+                "J’ai intégré et lié une grande partie des différentes animations créées par les artistes. Je me suis aussi attelé à la création du trail qui suit le vaisseau au cours de ses déplacements.",
+                "J’ai effectué de la mise en place des paliers de difficultés qui accélèrent le jeu."
+            ],
+            "return": [
+                "Le point particulier de cette game jam a été que nous avions pour règle de développer le jeu sur un jour uniquement, le deuxième ne devant servir qu’au polish. ",
+                "Il a donc fallu tenir une cadence plus élevée qu’à l’accoutumer, et nous forcer à communiquer constamment afin de perdre le moins de temps possible.",
+                "Ce fut une expérience assez éprouvante en raison du peu de temps alloué à la réalisation du jeu et au fait que le moteur, Game Maker 2, nous était inconnu. Elle a été néanmoins très gratifiante, le résultat ayant été félicité par le jury et étant extrêmement proche de nos attentes."
+                
+            ],
+            "download": {
+                "link": "https://github.com/LDisarbois/Perfect-Space/releases/download/1.0.0/Perfect.space.zip",
+                "text": "Perfect space.zip"
+            },
+            "git": {
+                "icon": "assets/Images/github.png",
+                "url": "https://github.com/LDisarbois/Perfect-Space",
+                "text": "Page GitHub"
+            },
+            "website": {
+                "icon": "",
+                "text": "",
+                "url": ""
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "imgCard": {
+                    "src": "assets/Images/PerfectSpace/StartScreen.png",
+                    "alt": "Start Screen"
+                },
+                "list": [
+                    {
+                        "src": "assets/Images/PerfectSpace/StartScreen.png",
+                        "miniature": "assets/Images/PerfectSpace/StartScreen-miniature.png",
+                        "alt": "Start screen"
+                    }, 
+                    {
+                        "src": "assets/Images/PerfectSpace/Screen1.png",
+                        "miniature": "assets/Images/PerfectSpace/Screen1-miniature.png",
+                        "alt": "Screen game first point"
+                    }, 
+                    {
+                        "src": "assets/Images/PerfectSpace/Screen2.png",
+                        "miniature": "assets/Images/PerfectSpace/Screen2-miniature.png",
+                        "alt": "Middle part avancement"
+                    }, 
+                    {
+                        "src": "assets/Images/PerfectSpace/Results.png",
+                        "miniature": "assets/Images/PerfectSpace/Results-miniature.png",
+                        "alt": "End screen"
+                    }
+                ]
+            }
+        },{
             "order": 9,
             "title": "The Experiment",
             "type": "Puzzle Horreur",
@@ -40,9 +457,9 @@
                 "text": "TheExperiment.zip"
             },
             "git": {
-                "icon": "assets/Images/github.png",
+                "icon": "assets/Images/gitlab.png",
                 "url": "https://gitlab.com/ynov_master/project_ana_2",
-                "text": "Page GitHub"
+                "text": "Page Gitlab"
             },
             "website": {
                 "icon": "",
@@ -123,7 +540,7 @@
                 "Il a fallu ensuite aussi pallier le manque de connaissances lors de l’intégration des textures. N’ayant jamais travaillé sur ce point, j’ai appris à créer des matériaux sur Unity applicables sur le modèle 3D."
             ],
             "download": {
-                "link": "http://51.178.47.49/AjiGames/DragQueenQuest.zip",
+                "link": "https://github.com/Ajirogg/DragQueenQuestRelease/releases/download/0.0.2/DragQueenQuest.zip",
                 "text": "DragQueenQuest.zip"
             },
             "git": {
@@ -200,7 +617,7 @@
                 "En définitive nous sommes fiers de notre réalisation même si elle n’est pas réellement exploitable en l’état."
             ],
             "download": {
-                "link": "http://51.178.47.49/AjiGames/HommeCareAgency.zip",
+                "link": "https://github.com/Ajirogg/GGJ_NoBrainNoGame/releases/download/1.0.0/HommeCareAgency.zip",
                 "text": "HommeCareAgency.zip"
             },
             "git": {
@@ -290,7 +707,7 @@
                 "Le projet, comme souvent en game jam, a dû être revu un peu à la baisse (il y a moins de bombes que prévu et moins de visuels de terrain).  Mais le jeu est complet, compréhensible et jouable !"
             ],
             "download": {
-                "link": "http://51.178.47.49/AjiGames/Potion Brawl.zip",
+                "link": "https://github.com/mat13109/Potion_Brawl/releases/download/1.1/Potion.Brawl.1.1.zip",
                 "text": "Potion Brawl.zip"
             },
             "git": {
@@ -381,7 +798,7 @@
                 "Ce projet m’a appris à travailler au sein d’une équipe plus grande. Nous nous sommes réparti les tâches en fonctions de nos envies et de nos connaissances. Ce projet était trop ambitieux pour un premier gros projet mais a été très instructif sur la façon de gérer une équipe, sur le besoin de canaux de communication clairs et sur la répartition des tâches."
             ],
             "download": {
-                "link": "http://51.178.47.49/AjiGames/WTNY.zip",
+                "link": "https://github.com/Guilhem-Pech/WelcomeToNewYork_/releases/download/1.0.0/WTNY.zip",
                 "text": "WTNY.zip"
             },
             "git": {
@@ -476,7 +893,7 @@
                 "Malgré cette fin compliquée, ce projet a été une expérience plaisante car tous les participants étaient réunis dans une même salle, ce qui permettait des échanges entre les groupes, de l’entraide  entre des personnes très différentes. Nous avons pu discuter avec des étudiants de master, avec des professionnels d’Ubisoft, d’autres élèves de notre promotion et ainsi voir l’étendue de créativité et d’interprétation autour de thèmes généraux et assez simples."
             ],
             "download": {
-                "link": "http://51.178.47.49/AjiGames/HOTSTAGE.zip",
+                "link": "https://github.com/Ajirogg/MarmeladeDeJeu/releases/download/1.0.0/HOTSTAGE.zip",
                 "text": "Hot'Stage.zip"
             },
             "git": {
@@ -566,7 +983,7 @@
                 "Le jeu et le concept ont été très appréciés par le jury."
             ],
             "download": {
-                "link": "http://51.178.47.49/AjiGames/Waterlilly.zip",
+                "link": "https://github.com/Ajirogg/Waterlily/releases/download/1.0.0/Waterlilly.zip",
                 "text": "Waterlily.zip"
             },
             "git": {
@@ -648,7 +1065,7 @@
                 "Il reste encore des problèmes de collisions, d’optimisation et de génération aléatoire dûs à notre manque de connaissances du langage et du peu de temps que nous avons eu pour nous former dessus."
             ],
             "download": {
-                "link": "http://51.178.47.49/AjiGames/TAATOG.exe",
+                "link": "https://github.com/Ajirogg/TAATOG_Release/releases/download/1.0.0/TAATOG.exe",
                 "text": "TAATOG.exe"
             },
             "git": {
@@ -662,7 +1079,7 @@
                 "url": ""
             },
             "youtube": "https://youtu.be/2WNnshN7QFc",
-            "itchio": "",
+            "itchio": "https://ajirog.itch.io/taatog",
             "img": {
                 "imgCard": {
                     "src": "assets/Images/TAATOG/Pochette.png",
@@ -719,7 +1136,7 @@
                 "Guide Kini à travers des salles remplies de mécanismes, trappes et autres dangers et deviens le roi de l'Escape-Colle !"
             ],
             "context": [
-                "Avant tout, le site est disponible parmi les liens. Il est hébergé gratuitement par un membre de l’équipe, c’est pourquoi nous vous demandons de ne pas créer de compte (l’espace qui nous est alloué est assez restreint). Les identifiants du compte de test sont disponibles sur la page de connexion du site.",
+                "Avant tout, le site est disponible parmi les liens. Il est hébergé gratuitement par un membre de l’équipe, c’est pourquoi nous vous demandons de ne pas créer de compte (l’espace qui nous est alloué est assez restreint). Les identifiants du compte de test sont disponibles sur la page de connexion du site. Certains navigateurs peuvent bloquer le chargement des pages CSS.",
                 "Kinimi est une plateforme web créée en 3 mois lors de notre 2e année de DUT informatique. Le but était de créer une plateforme ludo-éducative pour permettre aux élèves de 3e de réviser les mathématiques et l’informatique.",
                 "Le site se découpe en deux parties : une partie pour les mathématiques, qui regroupe soit des histoires interactives intégrant des exercices, soit directement des exercices, et une partie pour l’informatique qui se compose d’une série de niveaux dans lesquels le joueur va devoir sortir de la pièce où il se trouve en codant les déplacements de son personnage avec du code scratch."
             ],

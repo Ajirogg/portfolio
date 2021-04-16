@@ -35,7 +35,7 @@ const appRoutes: Routes = [
     BrowserModule,
     AppRoutingModule,
     GalleriaModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' })
   ],
   providers: [],
   bootstrap: [AppComponent]

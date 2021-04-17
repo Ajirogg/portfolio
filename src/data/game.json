@@ -453,8 +453,8 @@
                 "Lors du projet nous avons travaillé en méthode agile (SCRUM), et nous étions autonomes (les intervenants ne prenant part à aucune  décision, n’intervenant que si nous leur demandions de l’aide)."
             ],
             "download": {
-                "link": "http://51.178.47.49/AjiGames/TheExperiment.zip",
-                "text": "TheExperiment.zip"
+                "link": "",
+                "text": ""
             },
             "git": {
                 "icon": "assets/Images/gitlab.png",
@@ -467,7 +467,7 @@
                 "url": ""
             },
             "youtube": "",
-            "itchio": "",
+            "itchio": "https://ajirog.itch.io/the-experiment",
             "img": {
                 "imgCard": {
                     "src": "assets/Images/The Experiment/logo.png",

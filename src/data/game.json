@@ -49,7 +49,7 @@
             },
             "git": {
                 "icon": "assets/Images/Azure.png",
-                "url": "https://dev.azure.com/OiraAmataVR/OiraAmata",
+                "url": "https://dev.azure.com/OiraAmataVR/_git/OiraAmata",
                 "text": "Page Azure Devops"
             },
             "website": {

@@ -1,6 +1,67 @@
 {
     "games": [
         {
+            "order": 15,
+            "title": "Projet non annoncé",
+            "type": "VR, Unreal, Multijoueur",
+            "date": "2021",
+            "team": [
+                {
+                    "ecole": "Incarna Studios",
+                    "membres": []
+                }
+            ],
+            "shortDesc": {
+                "style": "J'ai rejoint Incarna Studio pour mon stage de fin d'études. Durant ce stage nous avons développé lors de la pré-production le prototype d'un jeu sur unreal, qui n'a pas encore été annoncé.",
+                "team": ""
+            },
+            "pitch": [ 
+            ],
+            "context": [
+                "Incarna Studios m'a acceuilli pour mon stage de fin d'études de 6 mois afin de valider mon master.",
+                "Lors de mon arrivé, le studio commençait le développement d'un prototype de jeu en réalité virtuelle sous Unreal."
+            ],
+            "work": [
+                "Au cours de mon stage, j’ai été amené à développer différentes fonctionnalités. Je me suis occupé de mettre en place le système de déplacement du jeu, de la préparation et du lancement des parties. Je me suis aussi attelé à la création d’un tutoriel  temporaire, simple, visant à expliquer brièvement le fonctionnement du jeu pour le présenter aux potentiels éditeurs. Une fois le développement du prototype en solo achevé, nous nous sommes attelés à l’adaptation du code pour créer un mode multijoueur coopératif, avec ajout de fonctionnalités gameplay propre au multijoueur.",
+                "En parallèle du développement des fonctionnalités du jeu, j’ai été amené à programmer divers outils au profit des game-designers et/ou des artistes tel qu’un outil de création facile et rapide de morceaux du monde, un éditeur de map réutilisant les parties faites précédemment, ou encore un outil permettant de tester un enchaînement modifiable de morceaux de monde ou de parties créées.",
+                "La fin de mon stage a été consacrée à de la R&D avec deux phases distinctes. La première consistait à modifier le prototype afin d’en construire une version allégée pour le faire tourner convenablement sur Oculus Quest 2. La deuxième partie a été une grande passe d’optimisation, de profilage et de modification du prototype initial, afin de déterminer la faisabilité du jeu en mode solo sur Oculus Quest 2, sans alléger la partie gameplay."
+             ],
+            "return": [
+                "Durant ces 6 mois de stage, j’ai beaucoup appris sur le fonctionnement du développement au sein d’un réel studio de jeux, les tenants et aboutissants d’une production, du développement de prototypes. J’ai ainsi pu mettre à contribution mon apprentissage et le parfaire au sein d’une équipe dynamique et motivée.",
+                "J’ai découvert l’importance des outils indispensables au bon développement d’un jeu, ainsi que la nécessité de les créer modulables et faciles à adapter pour fluidifier leurs améliorations à venir.",
+                "Cette expérience m’a permis de concrétiser des concepts et des logiques du développement du jeu qui lors de mon apprentissage, étaient restés des concepts assez flous car seulement évoqués de manière superficielle (ex : Game Mode, Game State, Player State…).",
+                "Elle m’a aussi appris l’importance d’une équipe soudée, du partage d’idées et de la discussion dans une production. Ces aspects nous ont permis d’améliorer le prototype, d’avancer plus vite grâce à une vision claire et globale de l’avancement. J’ai ainsi pu développer ma capacité à faire des comptes-rendus brefs et compréhensibles des problèmes rencontrés, des idées développées et d’adapter mon langage en fonction des personnes présentes et du but des discussions."
+            ],
+            "download": {
+                "link": "",
+                "text": ""
+            },
+            "git": {
+                "icon": "",
+                "url": "",
+                "text": ""
+            },
+            "website": {
+                "icon": "assets/Images/web.png",
+                "text": "Page web du studio",
+                "url": "https://www.incarna-studios.com/"
+            },
+            "youtube": "",
+            "itchio": "",
+            "img": {
+                "imgCard": {
+                    "src": "assets/Images/IncarnaStudios/LogoIncarna-1920_1080.png",
+                    "alt": "Logo Incarna Studios"
+                },
+                "list": [
+                    {
+                        "src": "assets/Images/IncarnaStudios/LogoIncarna-1920_1080.png",
+                        "miniature": "assets/Images/IncarnaStudios/LogoIncarna-1920_1080-miniature.png",
+                        "alt": "Logo Incarna Studios"
+                    }
+                ]
+            }
+        }, {
             "order": 14,
             "title": "Oïra Amata",
             "type": "Contemplatif, VR, Puzzle",
@@ -249,7 +310,7 @@
             "date": "2021",
             "team": [
                 {
-                    "ecole": "Global Fame Jam site YNOV GGJ 2021",
+                    "ecole": "Global Game Jam site YNOV GGJ 2021",
                     "membres": [
                         "Guillaume FERRUCCI",
                         "Kilian POUILLE",

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { LanguageService } from "src/Services/language.service";
 import { Subscription } from 'rxjs';
@@ -25,7 +26,7 @@ export class AboutMeComponent implements OnInit {
   linkedin: string;
   itchio: string;
 
-  constructor(private languageService : LanguageService) { }
+  constructor(private router: Router, private languageService : LanguageService) { }
 
   ngOnInit(): void {
     this.languageSubscription = this.languageService.languageSubject.subscribe(
@@ -48,5 +49,9 @@ export class AboutMeComponent implements OnInit {
     this.email = texts.global.email;
     this.linkedin = texts.global.linkedIn;
     this.itchio = texts.global.itchio;
+  }
+
+  ChargeTaatogPage(): void{
+    this.router.navigate(['/Creations/TAATOG']);
   }
 }

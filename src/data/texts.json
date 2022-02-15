@@ -692,7 +692,7 @@
                 "date": "2020",
                 "team": [
                     {
-                        "ecole": "No Brain No Games ",
+                        "ecole": "No Brain No Game",
                         "membres": [
                             "Priscilla GOY",
                             "Brittany LEDDA",
@@ -711,7 +711,7 @@
                     "Vous incarnez un psychiatre recevant différents patients dans son cabinet. Ces personnes ont besoin de vous ! Prêtez attention à leur attitude afin de comprendre leur pathologie et de les aider !"
                 ],
                 "context": [
-                    "Homme Care Agency a été créé durant la Globale Game Jam 2020, ayant pour thème la réparation, par l’équipe baptisée No Brain No Games."
+                    "Homme Care Agency a été créé durant la Globale Game Jam 2020, ayant pour thème la réparation, par l’équipe baptisée No Brain No Game."
                 ],
                 "work": [
                     "Lors de cette game jam, je me suis principalement attelé à faire mettre en place les données utilisées au cours du jeu (quels objets améliorent l’état ou le dégradent pour chaque pathologie), ainsi que la mise en place des assets dans la scène en fonction des directives du Game Designer.",
@@ -1530,7 +1530,7 @@
                 "pitch": [],
                 "context": [
                     "The Ydays at Ynov Campus Aix-en-Provence are one of the compulsory course for each cursus. They aim to carry out projects created by students or professionals from outside the school. Each project manager chooses their team from among the school's students. Unfortunately, the sessions are very far apart (avout one day every fortnight).",
-                    "Tang & Arlee is a project imagined by Thomas GUILBERT. It was started with Unity, during 6 weeks intership, and then continued during the 2020/2021 shool year with some of the original team, as well as new members like me.",
+                    "Tang & Arlee is a project imagined by GUILBERT Thomas. It was started with Unity, during 6 weeks intership, and then continued during the 2020/2021 shool year with some of the original team, as well as new members like me.",
                     "The team consisted of 12 students (2 developers and 10 artists)."
                 ],
                 "work": [
@@ -1762,7 +1762,7 @@
                     
                 ],
                 "context": [
-                    "Perfect space is a scoring game created in 48h with GameMaker 2 during a jam organized by the university Ynov Aix-en-Provence, following the themes :",
+                    "Perfect space is a scoring game created in 48h with GameMaker 2 during a jam organised by the university Ynov Aix-en-Provence, following the themes :",
                     "- Reproduce an excisting mechanism",
                     "- Flat-design",
                     "- Two colours",
@@ -1997,7 +1997,7 @@
                 "date": "2020",
                 "team": [
                     {
-                        "ecole": "No Brain No Games ",
+                        "ecole": "No Brain No Game",
                         "membres": [
                             "Priscilla GOY",
                             "Brittany LEDDA",
@@ -2016,7 +2016,7 @@
                     "As a psychologist you must treat mental disorders to repair your client's mind. These people need you ! Pay attention to their attitude in order to understand their pathology and help them !"
                 ],
                 "context": [
-                    "Homme Care Agency was created during the 2020 Global Gam Jam, with the theme of \"repair\", by the team named No Brain No Games."
+                    "Homme Care Agency was created during the 2020 Global Gam Jam, with the theme of \"repair\", by the team named No Brain No Game."
                 ],
                 "work": [
                     "During this game jam, I mainly took care of setting up the data used in the game (which objects improve or worsen the state for each disease), as well as the integration of their assets into the scene following the instructions of the game-designer.",
@@ -2024,7 +2024,7 @@
                 ],
                 "return": [
                     
-                    "During this game jam we would see that our vision of development time was quite right, but a miscommunication within the team made the project not 100% succefful.",
+                    "During this game jam we could see that our vision of development time was quite right, but a miscommunication within the team made the project not 100% succefful.",
                     "We also realised that we hadn't given enough thought to making the game easy to understand. Many elements are not understandable without an explanation. A player who starts the game without a short briefing can play (lose or win) without understanding the implications and effects of his actions. More time should have been spent on introducing the game (how to play, what interactions are possible, etc.) or, with more time/means, making an extremely basic tutorial level.",
                     "Ultimately we are proud of our achievement even if it's not really usable as it stands."
                 ],
@@ -2112,13 +2112,13 @@
                     "This exercise mixed Master 1 and 2 students and was done on Unity."
                 ],
                 "work": [
-                    "During this game jam, I started by setting up the players' movements, as well as their only action which is to kick in the bombes to send them at the opponent.",
-                    "Once the character was created, I created the different bombs available in the game and their effects."
+                    "During this game jam, I started by setting up the players' movements, as well as their only action which is to kick in the bombs to send them at the opponent.",
+                    "Once the character was done, I created the different bombs available in the game and their effects."
                 ],
                 "return": [
                    
                     "The work was very pleasant to do, the team communicated well and the development went well overall.",
-                    "This project, as is often the case in gaéme jams, had to be scaled down a bit (there are fewer bombs than expected and less field visuals). But the game is complete, understandable and playable !"
+                    "This project, as is often the case in game jams, had to be scaled down a bit (there are fewer bombs than expected and less field visuals). But the game is complete, understandable and playable !"
                 ],
                 "download": {
                     "link": "https://github.com/mat13109/Potion_Brawl/releases/download/1.1/Potion.Brawl.1.1.zip",
@@ -2196,15 +2196,15 @@
                     "team": "Created in 6 months by a 8 students team."
                 },
                 "pitch": [
-                    "In an alternate reality, creaetures from the darkness are invading the entire world. The Europeean Union has fallen, the African continent has not shown signs of live for several weeks and Asia has been considered lost for several months. Now it is the American continent that is threatened.",
+                    "In an alternate reality, creatures from the darkness are invading the entire world. The European Union has fallen, the African continent has not shown signs of life for several weeks and Asia has been considered lost for several months. Now it is the American continent that is threatened.",
                     "Summoning portals are beginning to form on Ellis Island, and the Organization has sent agents to the front lines to buy humanity as much time as possible.",
                     "Play as Ae, Joe or Aji and defend with your friends the last bastion of humanity."
                 ],
                 "context": [
-                    "Welcome to New-York is our end of year project from UQAC. It was creaeted in 6months with Unity and is my first multiplayer game."
+                    "Welcome to New-York is our end of year project from UQAC. It was created in 6 months with Unity and is my first multiplayer game."
                 ],
                 "work": [
-                    "With BRACHER Killian, our main missions was to develop the characters' movements, their attacks and their special moves. As well as trying to balance the game between the power of the characters, the effects of the special moves and the lives of the players and enemies.",
+                    "With BRACHER Killian, our main missions was to develop the characters' movements, their attacks and their special moves. As well as trying to balance the game between the power of the characters, the effects of their special moves and the lives of the players and enemies.",
                     "Once the network was set up we had to adapt all our code to be replicated in each player."
                 ],
                 "return": [
@@ -2292,7 +2292,7 @@
                     "team": "Created during the 2019 winter Wonder Jam in 48 hours by 7 students."
                 },
                 "pitch": [
-                    "You play a criminal whose robbery has gone wrong. Your goal is ot extract as much money as possible while holding your hostages and keeping the police out of the building."
+                    "You play a criminal whose robbery has gone wrong. Your goal is to extract as much money as possible while holding your hostages and keeping the police out of the building."
                 ],
                 "context": [
                     "Hot'Stage was developed in 48 hours during the 2019 winter Wonder Jam, a game jam organised by the Université du Québec A Chicoutimi. The imposed theme was \"Pressure\", and the associated styles were \"Dialogue\" and \"Management\"",
@@ -2385,7 +2385,7 @@
                     "team": "Created in 3 months by a 9 students team."
                 },
                 "pitch": [
-                    "You play as a drop of water that must reach a plant to water it. In this single level you have to move to it avoiding different traps (dirt, water, paper towels, etc.) trying to collect as many drop as possible."
+                    "You play as a drop of water that must reach a plant to water it. In this single level, you have to move to it avoiding different traps (dirt, paper towels, etc.) trying to collect as many drop as possible."
                 ],
                 "context": [
                     "Waterlily is a serious game prototype, developed at UQAC (Université du Québec A Chicoutimi). It is the end of the first semester project. The theme \"serious game\" was imposed. We decided to start with the raising awareness among children and teenagers about water wastage.",
@@ -2452,7 +2452,7 @@
                 "date": "2018",
                 "team": [
                     {
-                        "ecole": "Equipe 'U'",
+                        "ecole": "Team 'U'",
                         "membres": [
                             "Jarno BAEJIS",
                             "Thibaut DE NICOLAS",
@@ -2470,12 +2470,12 @@
                     "You woke up in a dungeon, in an uknown time. Your objective, to prepare yourself to face the boss of this dungeon. But beware, this new universe... make no sens !"
                 ],
                 "context": [
-                    "TAATOG was developed in 4 days during the game jam organized by the IUT 2 of Grenoble with two constraints : random events, and re-playability. The Ruby language with the GOSU gem was also imposed and unveiled at the beginnin gof the game jam.",
+                    "TAATOG was developed in 4 days during the game jam organised by the IUT 2 of Grenoble with two constraints : random events, and re-playability. The Ruby language with the GOSU gem was also imposed and unveiled at the beginning of the game jam.",
                     "TAATOG was ranked 2nd among all the creations of the promotion."
                 ],
                 "work": [
                     "During this game jam, I was first concerned with the development of the main character's movement and the physics.",
-                    "I drew and animated some of the enemies, as welle as some of the scenery.",
+                    "I drew and animated some of the enemies, as well as some of the scenery.",
                     "I also took care of the integration of the usable items in the game and the animations of the character's attack."
                 ],
                 "return": [
@@ -2555,13 +2555,13 @@
                     "Guide Kini through rooms full of mechanisms, traps and other dangers and become the king of the Escape-Colle !"
                 ],
                 "context": [
-                    "First of all, the site is available among the links. It is hosted for free by a member of the team, so we ask you not to create account (the space we are allocated is quite limited). The login details for the test account are availabl eon the login page of the site. Some browsers may block the loading of CSS pages.",
+                    "First of all, the site is available among the links. It is hosted for free by a member of the team, so we ask you not to create account (the space we are allocated is quite limited). The login details for the test account are available on the login page of the site. Some browsers may block the loading of CSS pages.",
                     "Kinimi is a web platform created in 3 months during our 2nd year of computer science DUT. The goal was to create an edutainment platform to allow 3rd year of secondary school children to revise mathematics and computer science.",
                     "The site is divided in two parts : one part for mathematics, which includes either interactive stories with exercises or ecercises directly, and one part for computer science, which consists of a series of levels in which the player has to get out of the room he is in by coding the movements of his character with scratch code."
                 ],
                 "work": [
-                    "During this project, I was in charge of the graphic part of the banner site, the character design, the Escape Colle game backgrounds, as well as the sketches that were supposed to appear throughout the maths stories, but which could not be integrates sue to lack of time.",
-                    "I designed the level-design for all four levels of Escape Colle."
+                    "During this project, I was in charge of the graphic part of the site banner, the character design, the Escape-Colle game backgrounds, as well as the sketches that were supposed to appear throughout the maths stories, but which could not be integrates due to lack of time.",
+                    "I designed the level-design for all four levels of Escape-Colle."
                 ],
                 "return": [
                     "This project was my first project involving a game. It was fun and I enjoyed doing the purely graphic part. It gave me my first experience in level-design."

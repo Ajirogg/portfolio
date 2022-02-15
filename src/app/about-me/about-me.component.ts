@@ -46,7 +46,7 @@ export class AboutMeComponent implements OnInit {
     }
     
     this.email = texts.global.email;
-    this.linkedin = texts.global.linkedin;
+    this.linkedin = texts.global.linkedIn;
     this.itchio = texts.global.itchio;
   }
 }

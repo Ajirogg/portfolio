@@ -1,18 +1,78 @@
 <div class="back p-5">
     <div *ngFor="let game of games; let index = index" (click)="loadPage(game)">
+        
+        
+        
         <div *ngIf="index % 2 === 0" class="row mb-4 align-items-center divtopage" style="border-radius: 25px">
             <img class="col-4 p-0 m-0" style="width: 100%; border-radius: 25px 0px 0px 25px;"
             [src]="game.img.imgCard.src" [alt]="game.img.imgCard.alt">
+            
             <div class="col-8 border-left">
-                <h4 class="titleCreation">{{ game.title }} ({{ game.date }})</h4>
-                <p class="mt-4">{{ game.shortDesc.style }} <br> {{ game.shortDesc.team }}</p>
+                <div class="row">
+                    <div class="col-9"></div>
+                    <div class="col-1">
+                        <img *ngIf="game.keyWordSplit.includes('VR') && game.keyWordSplit.includes('Multiplayer')" class="icon" src="assets/Images/multi.png" title="multi"/>
+                    </div>
+
+
+                    <div class="col-1">
+                        <img *ngIf="game.keyWordSplit.includes('VR'); else multi" class="icon" src="assets/Images/vr.png"/>
+                        <ng-template #multi>
+                            <img *ngIf="game.keyWordSplit.includes('Multiplayer')" class="icon" src="assets/Images/multi.png" title="multi"/>
+                        </ng-template>
+                    </div>
+
+
+
+                    <div class="col-1">
+                        <img *ngIf="game.keyWordSplit.includes('Unreal')" class="icon" src="assets/Images/unreal.svg" title="Unreal"/>
+                        <img *ngIf="game.keyWordSplit.includes('Unity')" class="icon" src="assets/Images/unity.svg" title="Unity"/>
+                        <img *ngIf="game.keyWordSplit.includes('Ruby')" class="icon" src="assets/Images/Ruby.svg" title="Ruby"/>
+                        <img *ngIf="game.keyWordSplit.includes('GameMaker')" class="icon" src="assets/Images/gamemaker.png" title="GameMaker Studio 2"/>
+                        <img *ngIf="game.keyWordSplit.includes('Web')" class="icon" src="assets/Images/web.png" title="Web page"/>                    
+                    </div>
+
+                </div>
+                <div>
+                    <h4 class="titleCreation">{{ game.title }} ({{ game.date }})</h4>
+                    <p class="mt-4">{{ game.shortDesc.style }} <br> {{ game.shortDesc.team }}</p>
+                </div>
+              
             </div>
+          
         </div>
+
+
+
 
         <div *ngIf="index % 2 === 1" class="row border mb-4 align-items-center divtopage" style="border-radius: 25px">
             <div class="col-8">
-                <h4 class="titleCreation">{{ game.title }} ({{ game.date }})</h4>
-                <p class="mt-4">{{ game.shortDesc.style }} <br> {{ game.shortDesc.team }}</p>
+
+                <div class="row">
+                   <div class="col-1" >
+                        <img *ngIf="game.keyWordSplit.includes('Unreal')" class="icon" src="assets/Images/unreal.svg" title="Unreal"/>
+                        <img *ngIf="game.keyWordSplit.includes('Unity')" class="icon" src="assets/Images/unity.svg" title="Unity"/>
+                        <img *ngIf="game.keyWordSplit.includes('Ruby')" class="icon" src="assets/Images/Ruby.svg" title="Ruby"/>
+                        <img *ngIf="game.keyWordSplit.includes('GameMaker')" class="icon" src="assets/Images/gamemaker.png" title="GameMaker Studio 2"/>
+                        <img *ngIf="game.keyWordSplit.includes('Web')" class="icon" src="assets/Images/web.png" title="Web page"/>                   
+                    </div> 
+
+                    <div class="col-1">
+                        <img *ngIf="game.keyWordSplit.includes('VR'); else multi" class="icon" src="assets/Images/vr.png"/>
+                        <ng-template #multi>
+                            <img *ngIf="game.keyWordSplit.includes('Multiplayer')" class="icon" src="assets/Images/multi.png"/>
+                        </ng-template>
+                    </div>
+
+                    <div class="col-1">
+                        <img *ngIf="game.keyWordSplit.includes('VR') && game.keyWordSplit.includes('Multiplayer')" class="icon" src="assets/Images/multi.png"/>
+                    </div>                      
+                </div>                
+
+                <div>
+                    <h4 class="titleCreation">{{ game.title }} ({{ game.date }})</h4>
+                    <p class="mt-4">{{ game.shortDesc.style }} <br> {{ game.shortDesc.team }}</p>
+                </div>
             </div>
             <img class="col-4 p-0 m-0 border-left" style="width: 100%; border-radius: 0px 25px 25px 0px;"
                 [src]="game.img.imgCard.src" [alt]="game.img.imgCard.alt">

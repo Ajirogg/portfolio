@@ -1,12 +1,18 @@
 <header class="header">
-  <h2 class="pt-4 pb-4 text-center">Guillaume RAIMUNDO</h2>
+  
+    <div (click)="changeLanguage()" style="position : static; cursor: pointer; float: right; background-color: rgba(240,248,255,0.75); width: auto; border-radius: 10px; margin: 5px; padding: 7px;">
+      <img alt="flag logo" style="width: 30px; height: auto;" [src]="flag">
+      <span style="color: black; font-weight: bold;">{{ langAbbreviate }}</span>
+    </div>
+  
+    <h2 class="pt-4 pb-4 text-center">Guillaume RAIMUNDO</h2>
+
+
 
   <div class="menu text-center">
-    <div (click)="changeMainPage('Creations')" class="menuOnglet creation p-0 border-right" style="width: 33.5%;">
-      Creations</div>
-    <div (click)="changeMainPage('CV')" class="menuOnglet CV p-0 border-right" style="width: 33%;">CV</div>
-    <div (click)="changeMainPage('A Propos')" class="menuOnglet about p-0" style="width: 33.5%;">A Propos
-    </div>
+    <div (click)="changeMainPage('Creations')" class="menuOnglet creation p-0 border-right" style="width: 33.5%;">{{ texts.Creations }}</div>
+    <div (click)="changeMainPage('Resume')" class="menuOnglet CV p-0 border-right" style="width: 33%;">{{ texts.Resume }}</div>
+    <div (click)="changeMainPage('AboutMe')" class="menuOnglet about p-0" style="width: 33.5%;">{{ texts.AboutMe }}</div>
   </div>
   <div *ngIf="!exeDispo" class="p-4 text-center warning">
     <h3> ATTENTION </h3>

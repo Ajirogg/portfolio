@@ -1,7 +1,12 @@
 export class GameInfo {
     order: number;
+    PageName: string;
     title: string;
-    type: string;
+
+
+    keyWords: string;
+    keyWordSplit: string[];
+
     date: string;
     team: { ecole: string, membres: string[] }[];
     shortDesc: { style: string, team: string };

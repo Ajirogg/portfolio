@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { GalleriaThumbnails } from 'primeng/galleria';
-import creationsData from "src/data/game.json";
+
+import { LanguageService } from "src/Services/language.service";
+import { Subscription } from 'rxjs';
+
+import texts from "src/data/texts.json"
+import { AboutMe } from 'src/Model/AboutMe';
 
 
 @Component({
@@ -10,19 +14,39 @@ import creationsData from "src/data/game.json";
 })
 export class AboutMeComponent implements OnInit {
 
-  text: string[];
+  
+  language : number;
+  languageSubscription: Subscription;
+
+
+  texts: AboutMe;
+  
   email: string;
   linkedin: string;
+  itchio: string;
 
-  constructor() { }
+  constructor(private languageService : LanguageService) { }
 
   ngOnInit(): void {
-    this.findAboutInfo();
+    this.languageSubscription = this.languageService.languageSubject.subscribe(
+      (language: number) =>{
+        this.language = language;
+        this.findAboutInfo();
+      }
+    );  
+
+    this.languageService.emitLanguageSubjects();
   }
 
   findAboutInfo(): void {
-    this.email = creationsData.about.email;
-    this.linkedin = creationsData.about.linkedin;
-    this.text = creationsData.about.text;
+    if(this.language === 0){
+      this.texts = texts.fr.AboutMe;
+    } else {
+      this.texts = texts.en.AboutMe;
+    }
+    
+    this.email = texts.global.email;
+    this.linkedin = texts.global.linkedin;
+    this.itchio = texts.global.itchio;
   }
 }

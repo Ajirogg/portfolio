@@ -1,44 +1,64 @@
 <div class="row" style="width: 100%; height: 100%;">
+  
+  
+  
     <div class="col-4 pr-0 link">
-        <img src="assets/Images/pp.png" alt="Profil picture" style="width: 100%; padding: 2%;">
+       
+        <!--  Profil Picture -->
+        <img src="assets/Images/pp.png" alt="{{ texts.AltPP }}" style="width: 100%; padding: 2%;">
+
+        <!--  LinkedIn  -->
         <div class="pl-2">
-            <img style="width: 30px; height: auto;" src="assets/Images/linkedin.png" alt="Linkedin logo">
-            <a class="pl-2" [href]="linkedin" target="_blank">Page linkedIn</a>
+            <img style="width: 30px; height: auto;" src="assets/Images/linkedin.png" alt="{{ texts.altLinkedin }}">
+            <a class="pl-2" [href]="linkedin" target="_blank">{{ texts.linkedin }}</a>
         </div>
+
+        <!--  Mail  -->
         <div class="pl-2">
-            <img style="width: 30px; height: auto;" src="assets/Images/gmail.png" alt="email logo">
-            <a class="pl-2" href="mailto: raimundo.guillaume@gmail.com">raimundo.guillaume@gmail.com</a>
+            <img style="width: 30px; height: auto;" src="assets/Images/gmail.png" alt="{{ texts.altEmail }}">
+            <a class="pl-2" href="mailto: raimundo.guillaume@gmail.com"> {{ email }} </a>
         </div>
+
+        <!--  Itch.io  -->
+        <div class="pl-2">
+            <img style="width: 30px; height: auto;" src="assets/Images/itchio.png" alt="{{ texts.altItchio }}">
+            <a class="pl-2" [href]="itchio" target="_blank"> Itch.io </a>
+        </div>
+
+
     </div>
+
+
+
+
+<!--   Presentation   -->
     <div class="col-8 bio">
         <div class="pt-5">
             <div class="pt-2" style="font-size: 1.25em;">
-                <p class="pb-1"> <span class="pl-5"> Bonjour, je m’appelle Guillaume RAIMUNDO, je suis développeur spécialisé dans la conception de jeux vidéo.
-                    </span> </p>
-            </div>
-            <div class="pt-2" style="font-size: 1.25em;">
-                <p class="pb-1"> <span class="pl-5">Passionné de jeux depuis de longues années, j’ai pu découvrir la
-                        création de ces derniers avec mon premier projet en tant que développeur : <a
-                            href="https://ajirogg.github.io/portfolio/Creations/The%20Amazing%20Awakening%20of%20The%20Overpowered%20Genius">TAATOG</a>
-                        ! </span>
-            </div>
-            <div class="pt-2" style="font-size: 1.25em;">
-                <p class="pb-1"> <span class="pl-5"> Je suis parti un an au Québec, à l’Université du Québec A
-                        Chicoutimi, pour découvrir plus en
-                        profondeur l’univers de la création de jeux (vidéo et de plateau). </span> </p>
-            </div>
-            <div class="pt-2" style="font-size: 1.25em;">
-                <p class="pb-1"> <span class="pl-5"> Suite à cette expérience, j’ai décidé de me spécialiser dans le
-                        développement de jeux vidéo.</span> </p>
+                <p class="pb-1"> <span class="pl-5"> {{ texts.Intro_1 }} </span> </p>
             </div>
 
             <div class="pt-2" style="font-size: 1.25em;">
-                <p class="pb-1"> <span class="pl-5"> Mon objectif est de pouvoir créer mon propre studio avec un ami,
-                        aussi passionné, et pouvoir faire naître les différents jeux que nous avons en tête. J'espère
-                        pouvoir divertir et faire rêver des personnes avec mes
-                        créations autant que je l’ai été lors de mes sessions de jeu !</span>
-                </p>
+                <p class="pb-1"> 
+                    <span class="pl-5"> {{ texts.Intro_2 }}
+                        <a href="https://ajirogg.github.io/portfolio/Creations/The%20Amazing%20Awakening%20of%20The%20Overpowered%20Genius">TAATOG</a>
+                    ! </span>
+            </div>
+
+            <div class="pt-2" style="font-size: 1.25em;">
+                <p class="pb-1"> <span class="pl-5"> {{ texts.Intro_3 }} </span> </p>
+            </div>
+
+            <div class="pt-2" style="font-size: 1.25em;">
+                <p class="pb-1"> <span class="pl-5"> {{ texts.Intro_4 }} </span> </p>
+            </div>
+
+
+            <div class="pt-2" style="font-size: 1.25em;">
+                <p class="pb-1"> <span class="pl-5"> {{ texts.Intro_5 }} </span> </p>
             </div>
         </div>
     </div>
+
+    
 </div>
